@@ -32,40 +32,47 @@
 
 ## 安装
 
-### 已有 Mac 原生 PoB2
+支持两种使用方式，任选一种即可。**推荐直接使用完整软件：PoB2 与汉化已经打包好，下载安装后即可使用，最方便。**
 
-使用 Python 3.9 或更新版本即可安装仓库中已生成的资源。
+| 使用方式 | 适合谁 | 安装方法 |
+| --- | --- | --- |
+| **完整软件（推荐）** | 希望直接使用汉化版 PoB2 的用户 | 下载 DMG，将 App 拖入 Applications |
+| **独立汉化插件** | 已有 Mac 原生 PoB2，希望给现有程序添加汉化的用户 | 下载插件源码，在现有 PoB2 的用户目录安装汉化 |
 
-1. 从本仓库下载源码 ZIP 并解压，或下载维护者提供的 `pob2-zh-cn-plugin-0.6.2.zip`。
-2. 先启动原版 PoB2 一次，再保存配装并退出。
-3. 在解压目录执行：
+### 方式一：完整软件（推荐）
+
+[下载 v0.6.2 完整 DMG（约 389 MiB）](https://github.com/snipernan/pob2-zh-cn/releases/download/v0.6.2/PoB2-0.23.1-zh-CN-0.6.2-AppleSilicon.dmg)，内含 **PoB2 核心 0.23.1 + 汉化 0.6.2**，适用于 **M 系列 Mac、macOS 11 及以上**。
+
+1. 下载并打开 DMG。
+2. 将“PoB2 简体中文.app”拖入 Applications（应用程序）。
+3. 从“应用程序”启动，程序会自动准备并加载汉化，随后即可使用。
+
+完整软件已整合程序与汉化，采用独立数据目录；已有配装可通过原有导入功能迁移。首次打开按 macOS 提示完成授权即可，具体操作见[安装与常见问题](docs/INSTALL.md)。[Release 页面](https://github.com/snipernan/pob2-zh-cn/releases/tag/v0.6.2)附有安装说明和 SHA-256 校验文件。
+
+### 方式二：给现有 PoB2 安装汉化插件
+
+适用于已有 **Apple Silicon Mac 原生 PoB2** 的用户，已验证核心 **0.23.1**。安装脚本使用 **Python 3.9 或更新版本**，汉化会接入现有程序的用户运行目录。
+
+1. [下载插件源码 ZIP](https://github.com/snipernan/pob2-zh-cn/archive/refs/heads/main.zip)并解压。
+2. 先启动现有 PoB2 一次，再保存配装并退出。
+3. 在解压目录双击 `安装或更新汉化.command`，或打开终端执行：
 
 ```sh
 python3 install.py
 python3 install.py --status
 ```
 
-也可双击 `安装或更新汉化.command`。重新打开 PoB2 后生效。
+4. 重新打开原来的 PoB2，汉化即可生效。
 
-默认目标为 `~/Library/Application Support/PathOfBuildingMacPoE2`。自定义路径：
+默认目标为 `~/Library/Application Support/PathOfBuildingMacPoE2`。自定义路径可通过 `--target` 指定：
 
 ```sh
 python3 install.py --target "/path/to/PathOfBuildingMacPoE2"
 ```
 
-重复安装复用同一加载入口，自动备份入口并校验资源。核心更新可能覆盖加载入口，此时重新安装并重启。卸载：
+重复安装复用同一加载入口，自动备份入口并校验资源。核心更新后如需恢复汉化，可重新安装并重启；卸载使用 `python3 install.py --uninstall`。
 
-```sh
-python3 install.py --uninstall
-```
-
-状态检查核验磁盘上的入口与资源；运行效果可在重启后的 PoB2 窗口中确认。详见[安装与常见问题](docs/INSTALL.md)。
-
-### 完整安装包
-
-[下载 v0.6.2 完整 DMG（约 389 MiB）](https://github.com/snipernan/pob2-zh-cn/releases/download/v0.6.2/PoB2-0.23.1-zh-CN-0.6.2-AppleSilicon.dmg)，内含核心 0.23.1 和汉化 0.6.2，适用于 M 系列 Mac、macOS 11 及以上。打开后将 App 拖入 Applications 即可使用。
-
-[Release 页面](https://github.com/snipernan/pob2-zh-cn/releases/tag/v0.6.2)附有安装说明和 SHA-256 校验文件。DMG 使用独立数据目录，详见[安装说明](docs/INSTALL.md)。
+两种方式均可使用 **F10 / Fn + F10** 切换中英文。目录、自定义安装和常见问题详见[安装说明](docs/INSTALL.md)。
 
 ## 开发
 
