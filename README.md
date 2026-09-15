@@ -1,6 +1,6 @@
 # PoB2 简体中文插件
 
-[GitHub 仓库](https://github.com/snipernan/pob2-zh-cn) · [检查状态](https://github.com/snipernan/pob2-zh-cn/actions/workflows/checks.yml)
+[下载完整 DMG](https://github.com/snipernan/pob2-zh-cn/releases/latest) · [GitHub 仓库](https://github.com/snipernan/pob2-zh-cn) · [检查状态](https://github.com/snipernan/pob2-zh-cn/actions/workflows/checks.yml)
 
 为 Apple Silicon Mac 原生版 **Path of Building 2** 提供中文显示、检索及输入修复。优先使用已核验的国服术语，缺失内容参照流亡 2 编年史；未核验的文字保留英文。
 
@@ -61,9 +61,11 @@ python3 install.py --uninstall
 
 状态检查核验磁盘上的入口与资源；运行效果可在重启后的 PoB2 窗口中确认。详见[安装与常见问题](docs/INSTALL.md)。
 
-### 尚未安装 PoB2
+### 完整安装包
 
-维护者可在 GitHub Releases 附加 Apple Silicon 中文 DMG。打开后将 App 拖入 Applications 即可使用。DMG 使用独立数据目录，详见[发布说明](docs/RELEASING.md)。源码通过 Git 维护，完整安装包通过 Releases 分发。
+[下载 v0.6.2 完整 DMG（约 389 MiB）](https://github.com/snipernan/pob2-zh-cn/releases/download/v0.6.2/PoB2-0.23.1-zh-CN-0.6.2-AppleSilicon.dmg)，内含核心 0.23.1 和汉化 0.6.2，适用于 M 系列 Mac、macOS 11 及以上。打开后将 App 拖入 Applications 即可使用。
+
+[Release 页面](https://github.com/snipernan/pob2-zh-cn/releases/tag/v0.6.2)附有安装说明和 SHA-256 校验文件。DMG 使用独立数据目录，详见[安装说明](docs/INSTALL.md)。
 
 ## 开发
 

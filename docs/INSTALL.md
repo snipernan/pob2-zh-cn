@@ -31,6 +31,8 @@ v0.6.1 起包含适配本次原生引擎的 UTF-8 字符桥接。安装后必须
 
 ## 完整 DMG
 
+[下载 v0.6.2 完整安装包](https://github.com/snipernan/pob2-zh-cn/releases/tag/v0.6.2)，页面附有 SHA-256 校验文件和安装说明。
+
 维护者提供的 `PoB2 简体中文.app` 已带汉化：从 DMG 拖入 Applications 后启动即可使用。
 
 分享版用户数据位于 `~/Library/Application Support/PathOfBuildingMacPoE2Chinese/UserData/Path of Building (PoE2)/`，与原版分开。已有配装可用原来的导入功能迁移。分享版启动时会自动加载内置汉化。
