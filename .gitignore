@@ -1,0 +1,31 @@
+# Local installation state and user/build data
+/backups/
+/installation.json
+/test-user/
+/test-output/
+/payload/disabled
+/payload/custom.lua
+/*-runtime-coverage.json
+/untranslated-observed.txt
+/equipment-compiled-coverage.json
+# Source snapshots already retain their provenance. Rebuild this merged output.
+/data/tree-combined-cn.json
+# Distribution artifacts belong in Releases, not Git history.
+/dist/
+/build/
+/research/
+*.app/
+*.dmg
+*.zip
+*.tar.gz
+*.log
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.mobileprovision

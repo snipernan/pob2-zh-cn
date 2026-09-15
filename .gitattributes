@@ -1,0 +1,18 @@
+* text=auto
+*.py text eol=lf
+*.lua text eol=lf
+*.swift text eol=lf
+*.command text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.tsv text eol=lf
+*.yml text eol=lf
+*.png binary
+*.otf binary
+# Keep generated dictionaries and third-party data out of code language statistics.
+data/** linguist-vendored
+fonts/** linguist-vendored
+licenses/** linguist-vendored
+licenses/*.txt -whitespace
+payload/*dictionary.lua linguist-generated
+payload/font.lua linguist-generated

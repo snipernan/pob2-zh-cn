@@ -1,0 +1,18 @@
+{
+  "snapshotDate": "2026-09-14",
+  "coreVersion": "0.23.1",
+  "files": {
+    "data/affixes-cn.json": "91ca202c5ab177eac97634b598e81deceb6ad124269fb7a23bc2fd14f2e99525",
+    "data/equipment-affix-lines-reviewed.json": "4d37071253ac056e2bb063b58002d8ce50216f084f0906fdee54dba7623bff68",
+    "data/equipment-affixes-cn.json": "f1c921211fb0b66c9d2ccd1eb82d436ddbcf247aabe6d98e4788182848e172ea",
+    "data/equipment-base-implicits-cn.json": "dc983e53e31688c547bacdd10b90c2620bc8c9cf70dcda1de152e4910ca28e60",
+    "data/equipment-bases-cn.json": "6d23f5b59828cf2b56fbe492fe33f2cb0d2ed1850647862280b1e8fb00ef686e",
+    "data/equipment-composed-cn.json": "5396ada009576b34fcad43458272702df337cef1a9e6a4cf841f0765e309cb01",
+    "data/equipment-granted-skills-cn.json": "cb91da0a3c1e51ebe83fae4af7cece10f7bc8ab338a0e80131e7bb23d74a43ae",
+    "data/equipment-uniques-cn.json": "67944b2948a86c72b312b8eea76782067224273c55081500d47e4fb5be33d267",
+    "data/inputs/tree-0_5.json": "6a4457b4628fa081b4c56465ce6b38074f057ca5b98e627234bb88cf93b677f6",
+    "data/skills-cn.json": "06ade7ca4cc0477e05674af04fe5049004e89973aaf976e3bd9830a28a113ee8",
+    "data/tree-cn.json": "6a92fcb084b86cdee4627f303e73367fe4ae5b344622688883dee6ae658e102f",
+    "data/tree-poe2db-cn.json": "6b9d5b43900ec27de981f479a23a3558f83889651fba5ddb2e9b5a52cd6ed62d"
+  }
+}

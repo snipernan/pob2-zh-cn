@@ -1,0 +1,52 @@
+-- Personal Chinese sharing build: initialize managed resources in this user's
+-- separate writable directory. No machine-specific paths or user data shipped.
+local support = assert(os.getenv('POB_MAC_USER_DIR'), 'Missing application support path')
+local resources = assert(os.getenv('SG_BASE_PATH'), 'Missing bundled resources path')
+local chineseRoot = support .. '/PoB2Chinese'
+MakeDir(chineseRoot)
+MakeDir(support .. '/UserData')
+-- Keep settings/builds separate from the original Mac application as well.
+function GetUserPath() return support .. '/UserData' end
+local function read(path)
+    local f = io.open(path, 'rb')
+    if not f then return nil end
+    local bytes = f:read('*a'); f:close(); return bytes
+end
+for _, name in ipairs(@PAYLOAD_FILES@) do
+    local bytes = assert(read(resources .. '/PoB2Chinese/' .. name), 'Missing Chinese resource: ' .. name)
+    local target = chineseRoot .. '/' .. name
+    if read(target) ~= bytes then
+        local f = assert(io.open(target .. '.new', 'wb'))
+        assert(f:write(bytes)); assert(f:close())
+        assert(os.rename(target .. '.new', target))
+    end
+end
+-- mac_entry.lua defines Launch first; the plugin wraps callbacks before OnInit.
+-- Upstream can return early when its optional native update check is disabled.
+-- Scope that return to the Mac adapter so Chinese initialization always runs.
+local function loadMacEntry()
+@UPSTREAM_ENTRY@
+end
+loadMacEntry()
+local chinese = assert(loadfile(chineseRoot .. '/init.lua'))(chineseRoot)
+chinese.installCallbacks()
+
+-- One-time startup diagnostics contain versions/state only, never user input.
+do
+    local previous = launch.OnFrame
+    local written, frames = false, 0
+    launch.OnFrame = function(self, ...)
+        previous(self, ...)
+        if written then return end
+        frames = frames + 1
+        if not self.main and frames < 120 then return end
+        local state = chinese.input and chinese.input.state or 'unavailable'
+        local f = io.open(support .. '/chinese_status.txt', 'w')
+        if f then
+            f:write('plugin=', chinese.version, '\ncore=', tostring(self.versionNumber),
+                '\ninput=', state, '\nready=', tostring(self.main ~= nil and not self.promptMsg), '\n')
+            f:close()
+            written = true
+        end
+    end
+end

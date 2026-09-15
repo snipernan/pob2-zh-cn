@@ -1,0 +1,1171 @@
+{
+  "schema": 1,
+  "sources": {
+    "data/tree-combined-cn.json": "7661e950d896ff8137cfa6cc04c971b2d6c3afca1dd8486a3da924babaf3df57",
+    "research/poe2db-equipment-uniques/pob-uniques.json": "2ed41336e170f3acc43347790a48d0ba894b225866b37ef265093e0d1f43dbdd",
+    "data/equipment-uniques-cn.json": "67944b2948a86c72b312b8eea76782067224273c55081500d47e4fb5be33d267"
+  },
+  "entries": [
+    {
+      "en": "Ancestral Bond",
+      "zh": "先祖魂约",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:45202:passive_keystone_ancestral_bond"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "45202"
+        ]
+      }
+    },
+    {
+      "en": "Avatar of Fire",
+      "zh": "火之化身",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:18684:passive_keystone_avatar_of_fire"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "18684"
+        ]
+      }
+    },
+    {
+      "en": "Blackflame Covenant",
+      "zh": "黑焰血誓",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:42680:passive_keystone_fire_spells_to_chaos"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "42680"
+        ]
+      }
+    },
+    {
+      "en": "Blood Magic",
+      "zh": "祭血术",
+      "capture_map": [],
+      "sourceIds": [
+        "explicit.stat_2801937280"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "51749"
+        ]
+      }
+    },
+    {
+      "en": "Bulwark",
+      "zh": "壁垒",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:56605:passive_keystone_bulwark"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "56605"
+        ]
+      }
+    },
+    {
+      "en": "Chaos Inoculation",
+      "zh": "异灵之体",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:56349:passive_keystone_chaos_inoculation"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "56349"
+        ]
+      }
+    },
+    {
+      "en": "Conduit",
+      "zh": "能量连接",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:33979:passive_keystone_conduit"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "33979"
+        ]
+      }
+    },
+    {
+      "en": "Crimson Assault",
+      "zh": "猩红强袭",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:9085:passive_keystone_crimson_dance_"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "9085"
+        ]
+      }
+    },
+    {
+      "en": "Dance with Death",
+      "zh": "与亡共舞",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:14226:passive_keystone_dance_with_death"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "14226"
+        ]
+      }
+    },
+    {
+      "en": "Eldritch Battery",
+      "zh": "异能魔力",
+      "capture_map": [],
+      "sourceIds": [
+        "explicit.stat_2262736444"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "57513"
+        ]
+      }
+    },
+    {
+      "en": "Elemental Equilibrium",
+      "zh": "元素之相",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:46742:passive_keystone_elemental_equilibrium"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "46742"
+        ]
+      }
+    },
+    {
+      "en": "Eternal Youth",
+      "zh": "青春永驻",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:33404:passive_keystone_eternal_youth"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "33404"
+        ]
+      }
+    },
+    {
+      "en": "Giant's Blood",
+      "zh": "巨人之血",
+      "capture_map": [],
+      "sourceIds": [
+        "explicit.stat_1875158664"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "32349"
+        ]
+      }
+    },
+    {
+      "en": "Glancing Blows",
+      "zh": "斗转星移",
+      "capture_map": [],
+      "sourceIds": [
+        "explicit.stat_4266776872"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "19288"
+        ]
+      }
+    },
+    {
+      "en": "Heartstopper",
+      "zh": "凝心者",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:34497:passive_keystone_heartstopper"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "34497"
+        ]
+      }
+    },
+    {
+      "en": "Hollow Palm Technique",
+      "zh": "空明之掌",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:64601:passive_keystone_hollow_palm_technique"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "64601"
+        ]
+      }
+    },
+    {
+      "en": "Iron Reflexes",
+      "zh": "霸体",
+      "capture_map": [],
+      "sourceIds": [
+        "explicit.stat_326965591",
+        "rune.stat_326965591"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "28492"
+        ]
+      }
+    },
+    {
+      "en": "Lord of the Wilds",
+      "zh": "荒野之主",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:61942:passive_keystone_lord_of_the_wilds"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "61942"
+        ]
+      }
+    },
+    {
+      "en": "Mind Over Matter",
+      "zh": "心灵升华",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:45918:passive_keystone_mind_over_matter"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "45918"
+        ]
+      }
+    },
+    {
+      "en": "Necromantic Talisman",
+      "zh": "通灵魔符",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:39935:passive_keystone_necromantic_talisman"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "39935"
+        ]
+      }
+    },
+    {
+      "en": "Oasis",
+      "zh": "荒漠绿洲",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:25100:passive_keystone_oasis"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "25100"
+        ]
+      }
+    },
+    {
+      "en": "Pain Attunement",
+      "zh": "苦痛灵曲",
+      "capture_map": [],
+      "sourceIds": [
+        "explicit.stat_98977150",
+        "rune.stat_98977150"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "55048"
+        ]
+      }
+    },
+    {
+      "en": "Passives in radius of Ancestral Bond can be Allocated without being connected to your tree",
+      "zh": "可以配置「先祖魂约」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:45202:passive_keystone_ancestral_bond"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Ancestral Bond",
+        "passiveIds": [
+          "45202"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Avatar of Fire can be Allocated without being connected to your tree",
+      "zh": "可以配置「火之化身」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:18684:passive_keystone_avatar_of_fire"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Avatar of Fire",
+        "passiveIds": [
+          "18684"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Blackflame Covenant can be Allocated without being connected to your tree",
+      "zh": "可以配置「黑焰血誓」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:42680:passive_keystone_fire_spells_to_chaos"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Blackflame Covenant",
+        "passiveIds": [
+          "42680"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Blood Magic can be Allocated without being connected to your tree",
+      "zh": "可以配置「祭血术」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "explicit.stat_2801937280"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Blood Magic",
+        "passiveIds": [
+          "51749"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Bulwark can be Allocated without being connected to your tree",
+      "zh": "可以配置「壁垒」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:56605:passive_keystone_bulwark"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Bulwark",
+        "passiveIds": [
+          "56605"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Chaos Inoculation can be Allocated without being connected to your tree",
+      "zh": "可以配置「异灵之体」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:56349:passive_keystone_chaos_inoculation"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Chaos Inoculation",
+        "passiveIds": [
+          "56349"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Conduit can be Allocated without being connected to your tree",
+      "zh": "可以配置「能量连接」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:33979:passive_keystone_conduit"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Conduit",
+        "passiveIds": [
+          "33979"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Crimson Assault can be Allocated without being connected to your tree",
+      "zh": "可以配置「猩红强袭」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:9085:passive_keystone_crimson_dance_"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Crimson Assault",
+        "passiveIds": [
+          "9085"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Dance with Death can be Allocated without being connected to your tree",
+      "zh": "可以配置「与亡共舞」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:14226:passive_keystone_dance_with_death"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Dance with Death",
+        "passiveIds": [
+          "14226"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Eldritch Battery can be Allocated without being connected to your tree",
+      "zh": "可以配置「异能魔力」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "explicit.stat_2262736444"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Eldritch Battery",
+        "passiveIds": [
+          "57513"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Elemental Equilibrium can be Allocated without being connected to your tree",
+      "zh": "可以配置「元素之相」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:46742:passive_keystone_elemental_equilibrium"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Elemental Equilibrium",
+        "passiveIds": [
+          "46742"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Eternal Youth can be Allocated without being connected to your tree",
+      "zh": "可以配置「青春永驻」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:33404:passive_keystone_eternal_youth"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Eternal Youth",
+        "passiveIds": [
+          "33404"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Giant's Blood can be Allocated without being connected to your tree",
+      "zh": "可以配置「巨人之血」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "explicit.stat_1875158664"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Giant's Blood",
+        "passiveIds": [
+          "32349"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Glancing Blows can be Allocated without being connected to your tree",
+      "zh": "可以配置「斗转星移」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "explicit.stat_4266776872"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Glancing Blows",
+        "passiveIds": [
+          "19288"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Heartstopper can be Allocated without being connected to your tree",
+      "zh": "可以配置「凝心者」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:34497:passive_keystone_heartstopper"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Heartstopper",
+        "passiveIds": [
+          "34497"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Hollow Palm Technique can be Allocated without being connected to your tree",
+      "zh": "可以配置「空明之掌」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:64601:passive_keystone_hollow_palm_technique"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Hollow Palm Technique",
+        "passiveIds": [
+          "64601"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Iron Reflexes can be Allocated without being connected to your tree",
+      "zh": "可以配置「霸体」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "explicit.stat_326965591",
+        "rune.stat_326965591"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Iron Reflexes",
+        "passiveIds": [
+          "28492"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Lord of the Wilds can be Allocated without being connected to your tree",
+      "zh": "可以配置「荒野之主」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:61942:passive_keystone_lord_of_the_wilds"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Lord of the Wilds",
+        "passiveIds": [
+          "61942"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Mind Over Matter can be Allocated without being connected to your tree",
+      "zh": "可以配置「心灵升华」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:45918:passive_keystone_mind_over_matter"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Mind Over Matter",
+        "passiveIds": [
+          "45918"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Necromantic Talisman can be Allocated without being connected to your tree",
+      "zh": "可以配置「通灵魔符」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:39935:passive_keystone_necromantic_talisman"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Necromantic Talisman",
+        "passiveIds": [
+          "39935"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Oasis can be Allocated without being connected to your tree",
+      "zh": "可以配置「荒漠绿洲」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:25100:passive_keystone_oasis"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Oasis",
+        "passiveIds": [
+          "25100"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Pain Attunement can be Allocated without being connected to your tree",
+      "zh": "可以配置「苦痛灵曲」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "explicit.stat_98977150",
+        "rune.stat_98977150"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Pain Attunement",
+        "passiveIds": [
+          "55048"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Primal Hunger can be Allocated without being connected to your tree",
+      "zh": "可以配置「原始饥渴」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:37484:passive_keystone_acrobatics"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Primal Hunger",
+        "passiveIds": [
+          "37484"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Resolute Technique can be Allocated without being connected to your tree",
+      "zh": "可以配置「坚毅之心」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:44017:passive_keystone_resolute_technique"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Resolute Technique",
+        "passiveIds": [
+          "44017"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Resonance can be Allocated without being connected to your tree",
+      "zh": "可以配置「共鸣」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:25520:passive_keystone_resonance"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Resonance",
+        "passiveIds": [
+          "25520"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Ritual Cadence can be Allocated without being connected to your tree",
+      "zh": "可以配置「仪式节律」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:11230:passive_keystone_auto_invocation"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Ritual Cadence",
+        "passiveIds": [
+          "11230"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Scarred Faith can be Allocated without being connected to your tree",
+      "zh": "可以配置「创痛信仰」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:49547:passive_keystone_alternate_es_recovery"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Scarred Faith",
+        "passiveIds": [
+          "49547"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Trusted Kinship can be Allocated without being connected to your tree",
+      "zh": "可以配置「情比金坚」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:41861:passive_keystone_two_companions"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Trusted Kinship",
+        "passiveIds": [
+          "41861"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Unwavering Stance can be Allocated without being connected to your tree",
+      "zh": "可以配置「烈士意志」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "explicit.stat_1683578560",
+        "rune.stat_1683578560"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Unwavering Stance",
+        "passiveIds": [
+          "14540"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Vaal Pact can be Allocated without being connected to your tree",
+      "zh": "可以配置「瓦尔冥约」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "explicit.stat_2257118425"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Vaal Pact",
+        "passiveIds": [
+          "33369"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Whispers of Doom can be Allocated without being connected to your tree",
+      "zh": "可以配置「灭世之语」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:47759:passive_keystone_whispers_of_doom"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Whispers of Doom",
+        "passiveIds": [
+          "47759"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Wildsurge Incantation can be Allocated without being connected to your tree",
+      "zh": "可以配置「野性涌动咒言」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "poe2db-tree-4.5:49363:passive_keystone_wildsurge_incantation"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Wildsurge Incantation",
+        "passiveIds": [
+          "49363"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Passives in radius of Zealot's Oath can be Allocated without being connected to your tree",
+      "zh": "可以配置「狂热誓言」范围内的天赋，无需与天赋树相连",
+      "capture_map": [],
+      "sourceIds": [
+        "1026fb91cefb40ac6bf82a5b1f71ce959ed06234ae82418be7e3768ab4d8efc8",
+        "explicit.stat_1315418254"
+      ],
+      "verification": "reviewed-pob-from-nothing-sentence-with-poe2db-effect-and-verified-tree-name",
+      "evidence": {
+        "passiveName": "Zealot's Oath",
+        "passiveIds": [
+          "52"
+        ],
+        "sourceSentence": {
+          "en": "Passives in Radius can be Allocated without being connected to your tree",
+          "zh": "未连结至天赋树的技能，仍然可以在范围内配置"
+        },
+        "note": "The local generated item inserts a keystone into the source allocation-radius sentence; Chinese is an explicitly reviewed composition."
+      }
+    },
+    {
+      "en": "Primal Hunger",
+      "zh": "原始饥渴",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:37484:passive_keystone_acrobatics"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "37484"
+        ]
+      }
+    },
+    {
+      "en": "Resolute Technique",
+      "zh": "坚毅之心",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:44017:passive_keystone_resolute_technique"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "44017"
+        ]
+      }
+    },
+    {
+      "en": "Resonance",
+      "zh": "共鸣",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:25520:passive_keystone_resonance"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "25520"
+        ]
+      }
+    },
+    {
+      "en": "Ritual Cadence",
+      "zh": "仪式节律",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:11230:passive_keystone_auto_invocation"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "11230"
+        ]
+      }
+    },
+    {
+      "en": "Scarred Faith",
+      "zh": "创痛信仰",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:49547:passive_keystone_alternate_es_recovery"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "49547"
+        ]
+      }
+    },
+    {
+      "en": "Trusted Kinship",
+      "zh": "情比金坚",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:41861:passive_keystone_two_companions"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "41861"
+        ]
+      }
+    },
+    {
+      "en": "Unwavering Stance",
+      "zh": "烈士意志",
+      "capture_map": [],
+      "sourceIds": [
+        "explicit.stat_1683578560",
+        "rune.stat_1683578560"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "14540"
+        ]
+      }
+    },
+    {
+      "en": "Vaal Pact",
+      "zh": "瓦尔冥约",
+      "capture_map": [],
+      "sourceIds": [
+        "explicit.stat_2257118425"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "33369"
+        ]
+      }
+    },
+    {
+      "en": "Whispers of Doom",
+      "zh": "灭世之语",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:47759:passive_keystone_whispers_of_doom"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "47759"
+        ]
+      }
+    },
+    {
+      "en": "Wildsurge Incantation",
+      "zh": "野性涌动咒言",
+      "capture_map": [],
+      "sourceIds": [
+        "poe2db-tree-4.5:49363:passive_keystone_wildsurge_incantation"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "49363"
+        ]
+      }
+    },
+    {
+      "en": "Zealot's Oath",
+      "zh": "狂热誓言",
+      "capture_map": [],
+      "sourceIds": [
+        "explicit.stat_1315418254"
+      ],
+      "verification": "pob-flesh-crucible-exact-current-passive-name",
+      "evidence": {
+        "passiveIds": [
+          "52"
+        ]
+      }
+    }
+  ]
+}

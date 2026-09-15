@@ -1,0 +1,13 @@
+-- Run from the installed PoB src directory. All fixtures are isolated.
+local root = assert(debug.getinfo(1, 'S').source:sub(2):match('^(.*)/'))
+dofile(root .. '/integration.lua')
+dofile(root .. '/tests_skill_preview_state.lua')
+dofile(root .. '/tests_equipment_cn.lua')
+dofile(root .. '/tests_stat_compare_cn.lua')
+dofile(root .. '/tests_equipment_names_cn.lua')
+dofile(root .. '/tests_equipment_affixes.lua')
+dofile(root .. '/tests_equipment_coverage.lua')
+dofile(root .. '/tests_skills_cn.lua')
+dofile(root .. '/tests_tree_cn.lua')
+dofile(root .. '/tests_tooltip_cn.lua')
+dofile(root .. '/tests_tree_coverage.lua')

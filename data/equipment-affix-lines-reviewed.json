@@ -1,0 +1,1159 @@
+{
+  "schema": 1,
+  "sources": {
+    "research/poe2db-equipment-bases/pages/Amulets_us.html": "a958d8aba68bd697e0ac8aae34251db0c25876f10bbc90fe3a5473a003cbecc7",
+    "research/poe2db-equipment-bases/pages/Amulets_cn.html": "312a80832fbc4eecf894bd9131c98696b610fc764ee3fa5f4469825509b174e6",
+    "research/poe2db-equipment-bases/pages/Bows_us.html": "98248986ab85457779e1a668255a8f745fa45e18b5082e062abf400fd7889947",
+    "research/poe2db-equipment-bases/pages/Bows_cn.html": "ec33bbdd75dfddb41eb7377ce7ad15f29f6d449c55c5addd680d5a0113d9d36a",
+    "research/poe2db-equipment-bases/pages/Claws_us.html": "06f5e47e1548c975be0e08033bc5255028d0411298693bd016a8792b60ea2080",
+    "research/poe2db-equipment-bases/pages/Claws_cn.html": "5596f2c4540b00b2c5fb63b6ec19834654ebdd985ca7d4ffa60de74674c66a09",
+    "research/poe2db-equipment-bases/pages/Crossbows_us.html": "c193720dc4681ce659019f0a6c683dbe3001ebd3267f0bce1a7ede131e07db33",
+    "research/poe2db-equipment-bases/pages/Crossbows_cn.html": "c555c3420ef59740b4314c6bb5b36857437eefc9d84854bb7d736f92d34dc4f4",
+    "research/poe2db-equipment-bases/pages/Daggers_us.html": "556e75bb31a2b0b7f3f38b6107ee7b0d897b27f33b07bca0ce1d051bd8817d0b",
+    "research/poe2db-equipment-bases/pages/Daggers_cn.html": "7c607627f5dc2abaefce60cf33f38eb8b58ce3f30c064c07fb33d6fa3cdfa3e7",
+    "research/poe2db-equipment-bases/pages/Flails_us.html": "ad02f4c192ad4005164595a541b7f793accdc1d39809a9adadb1dfbecb278c3c",
+    "research/poe2db-equipment-bases/pages/Flails_cn.html": "9e06c04e889f064170d515de8bf10c96f95d6269291e2701dab496c795200265",
+    "research/poe2db-equipment-bases/pages/One_Hand_Axes_us.html": "7853d36b1b977e8a36085f872c7ddfc17a6b673938f5d3534e63f6f1d3952fc9",
+    "research/poe2db-equipment-bases/pages/One_Hand_Axes_cn.html": "020404e304aff74f5ee339a4308095441e12c4dc4708b95cb8acdc6ec0cf3ee0",
+    "research/poe2db-equipment-bases/pages/One_Hand_Maces_us.html": "dc22959806d4a028636215fa47fe92a1e841b117b24c350f7ae816dbbf418486",
+    "research/poe2db-equipment-bases/pages/One_Hand_Maces_cn.html": "23d6adf7007603ef0ce5db23cf294b7640adc94d448e8dc7a4a52bdbf629cff4",
+    "research/poe2db-equipment-bases/pages/One_Hand_Swords_us.html": "aff6dc93d8dff832a17555a8420665f725918b9eb798f1a0242ee6213b902822",
+    "research/poe2db-equipment-bases/pages/One_Hand_Swords_cn.html": "499d86a555c9123c6148152e93f68689d5fd16694c075faa33d91b20b72a8989",
+    "research/poe2db-equipment-bases/pages/Quarterstaves_us.html": "18b295fbf51d86a9beb0d93e610f887213896ca6bd2e0a6178629738af894a7f",
+    "research/poe2db-equipment-bases/pages/Quarterstaves_cn.html": "f41334092d2482b101bb11c0396b856631a2a5b2526a030ea5ba29212215dc4f",
+    "research/poe2db-equipment-bases/pages/Sceptres_us.html": "64e6a1ef0704568628af4e086779997c6eb85a004c0a550be3180aa3b8d748fa",
+    "research/poe2db-equipment-bases/pages/Sceptres_cn.html": "54cc1b8ac9c7922ea7528ab5cfae8e659f0c66ab06521a3baf040aeab9c04eb4",
+    "research/poe2db-equipment-bases/pages/Spears_us.html": "829392a68ddd9aac30b1b8a92d0ace735ec0d68e78d58d609502690cd1382f61",
+    "research/poe2db-equipment-bases/pages/Spears_cn.html": "1b93cf1eb94492d95f75278bbbe8b3ba8507bf55edb29383578fb0c7ed834816",
+    "research/poe2db-equipment-bases/pages/Staves_us.html": "d22322999e6e5db0b4c78b16376a8e63df17251e5053738ef010948cfd2122e3",
+    "research/poe2db-equipment-bases/pages/Staves_cn.html": "5167716d848a9a798f03a27495d6872898db0c7492bb04b93f552c4e1425df64",
+    "research/poe2db-equipment-bases/pages/Talismans_us.html": "a305cab11a19eaee2090aba6ab024ffd8126b12c28398dfbaac5aa35e3f6c105",
+    "research/poe2db-equipment-bases/pages/Talismans_cn.html": "9256686feac6e600f353f84aed1a849c7614229820365805ae47bd203f9f90c5",
+    "research/poe2db-equipment-bases/pages/Two_Hand_Axes_us.html": "75701d067c54ef02896830111b4f5c93d112e8f1f8625f4cd0e7c5d54db4abcf",
+    "research/poe2db-equipment-bases/pages/Two_Hand_Axes_cn.html": "d7ec6e3f11f2f509cd293021577cc78e0308ccbc5b536799255c71834b54e42d",
+    "research/poe2db-equipment-bases/pages/Two_Hand_Maces_us.html": "bc48713e541534054e1fcc77accc7df1a12ff071864a6e7edccd1aef960aa20e",
+    "research/poe2db-equipment-bases/pages/Two_Hand_Maces_cn.html": "2bb9c1b09b556c538ebfd58cac54f0551d8aeed3f74c0eb087ef86880c0c9fca",
+    "research/poe2db-equipment-bases/pages/Two_Hand_Swords_us.html": "4a5cefd7b5c4a7f7663a784475f3529c41916ba587f686eafca84d3104998142",
+    "research/poe2db-equipment-bases/pages/Two_Hand_Swords_cn.html": "5155ff8d29e81fc7c3cae395f386bf796ea020bd6b02157942ebdf85871a5c39",
+    "research/poe2db-equipment-bases/pages/Wands_us.html": "d788b9fc1c046dc458b8310af5dea0ea674efb34352b18f4ad4573db8972312c",
+    "research/poe2db-equipment-bases/pages/Wands_cn.html": "9c316549745b2cc2d95a7a5b082dd2376fc8120686e2a0594d220ce9efcd2352"
+  },
+  "localInputs": {
+    "research/poe2db-equipment-bases/pob-input/ModRunes.lua": "85d5f1d2d9e559fc62b79f46c8f9e7e0bfad4f666914dd2919570e558a6fb387",
+    "research/poe2db-equipment-bases/pob-input/ModItem-affix-review.lua": "66f955cff7f2b64ac4ec5939614b52d908f42e3df61e5a3b49f7d89fb40254fd"
+  },
+  "summary": {
+    "reviewedCompleteLines": 9,
+    "sourceEvidencePairs": 25
+  },
+  "excludedCompound": [
+    {
+      "en": "On Hitting an enemy, gains maximum added Lightning damage equal to the enemy's Power for 20 seconds, up to a total of #",
+      "reason": "The source translates the complete sentence with different line boundaries. English Hit+Lightning/Power versus Chinese Hit+Power/Lightning prevents independent line pairing; retain only the original verified whole-block translation."
+    }
+  ],
+  "entries": [
+    {
+      "id": "poe2db-reviewed-line:689e316141704c98e108ccb86e27364da54180bf7998a8e5d869dc0ca6f6b97e",
+      "en": "#% less Attack Damage",
+      "zh": "攻击伤害总降 #%",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-complete-line-unique-mod-and-number-keyword-identity",
+      "sourceIds": [
+        "8600c2bbb119b05cf93b2f951ea90342925c201560a711370274d6cac6ed2a4c"
+      ],
+      "localEnglishExamples": [
+        "20% less Attack Damage"
+      ],
+      "evidence": [
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "LegacyofQuillRain"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Bows_us.html",
+            "research/poe2db-equipment-bases/pages/Bows_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>50</span>% increased <a data-keyword=\"Attack\" href=\"Attacks\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/6af773409af39620d7d1e5dc47456966a0432fa5b2c42a1f08d0ad604b7293ed\">Attack</a> Speed<br/><span class='mod-value'>20</span>% less <a data-keyword=\"Attack\" href=\"Attacks\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/6af773409af39620d7d1e5dc47456966a0432fa5b2c42a1f08d0ad604b7293ed\">Attack</a> Damage",
+          "chineseHtml": "<a data-keyword=\"Attack\" href=\"Attacks\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/0c321d6b1165ef09fe7202510b1dd3a196ef6fcad715787553f5f4fbcdbc1aa9\">攻击</a>速度提高 <span class='mod-value'>50</span>%<br/><a data-keyword=\"Attack\" href=\"Attacks\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/0c321d6b1165ef09fe7202510b1dd3a196ef6fcad715787553f5f4fbcdbc1aa9\">攻击</a>伤害总降 <span class='mod-value'>20</span>%",
+          "englishLineHtml": "<span class='mod-value'>20</span>% less <a data-keyword=\"Attack\" href=\"Attacks\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/6af773409af39620d7d1e5dc47456966a0432fa5b2c42a1f08d0ad604b7293ed\">Attack</a> Damage",
+          "chineseLineHtml": "<a data-keyword=\"Attack\" href=\"Attacks\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/0c321d6b1165ef09fe7202510b1dd3a196ef6fcad715787553f5f4fbcdbc1aa9\">攻击</a>伤害总降 <span class='mod-value'>20</span>%",
+          "englishValues": [
+            "20"
+          ],
+          "chineseValues": [
+            "20"
+          ],
+          "englishKeywords": [
+            "Attack"
+          ],
+          "chineseKeywords": [
+            "Attack"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poe2db-reviewed-line:68068f7766fd43f66488d5908d8c2462b391911275b0d798962b0610b3546452",
+      "en": "#% reduced Mana Cost Efficiency of Command Skills",
+      "zh": "命令技能的魔力消耗效能降低 #%",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-complete-line-unique-mod-and-number-keyword-identity",
+      "sourceIds": [
+        "ffe4a72ef857cd41b5bc6e9ff72ff052a42e06d2069c287e8bffe75fc74af40b"
+      ],
+      "localEnglishExamples": [
+        "30% reduced Mana Cost Efficiency of Command Skills"
+      ],
+      "evidence": [
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdolofthePharisee"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Sceptres_us.html",
+            "research/poe2db-equipment-bases/pages/Sceptres_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>30</span>% reduced Mana Cost <a data-keyword=\"Efficiency\" href=\"Efficiency\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/70723d2a3bf2c663ac779e838411a5be7995f4854d76a354c23f3a7c61a556a3\">Efficiency</a> of <a data-keyword=\"Command\" href=\"Minion_Commands\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/9607d46d3b6460d87354523084dece3d5e7fbef455c424c2fd4e63489c36d99c\">Command</a> Skills<br/><a data-keyword=\"Minion\" href=\"Minions\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/2fa63fd081acfb3b0e0da421d62639187009aa8d3746ce58be4c44e0552af2ff\">Minions</a> deal <span class='mod-value'>60</span>% increased Damage with <a data-keyword=\"Command\" href=\"Minion_Commands\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/9607d46d3b6460d87354523084dece3d5e7fbef455c424c2fd4e63489c36d99c\">Command</a> Skills",
+          "chineseHtml": "<a data-keyword=\"Command\" href=\"Minion_Commands\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/ae976b175a1b5f50cc08d2a344855fd213f80626df88a1724b219e4c5ae3bc42\">命令</a>技能的魔力消耗<a data-keyword=\"Efficiency\" href=\"Efficiency\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/30056995ca8920f12a232330fa0b72ac52c1615b888ddd6a5b71a884a47c10f2\">效能</a>降低 <span class='mod-value'>30</span>%<br/><a data-keyword=\"Minion\" href=\"Minions\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/d831ff908a55f17a8a1ff8e2dd5a1d219643d6f51beb557d5aa5cb341dd0c61e\">召唤生物</a>使用<a data-keyword=\"Command\" href=\"Minion_Commands\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/ae976b175a1b5f50cc08d2a344855fd213f80626df88a1724b219e4c5ae3bc42\">命令</a>技能造成的伤害提高 <span class='mod-value'>60</span>%",
+          "englishLineHtml": "<span class='mod-value'>30</span>% reduced Mana Cost <a data-keyword=\"Efficiency\" href=\"Efficiency\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/70723d2a3bf2c663ac779e838411a5be7995f4854d76a354c23f3a7c61a556a3\">Efficiency</a> of <a data-keyword=\"Command\" href=\"Minion_Commands\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/9607d46d3b6460d87354523084dece3d5e7fbef455c424c2fd4e63489c36d99c\">Command</a> Skills",
+          "chineseLineHtml": "<a data-keyword=\"Command\" href=\"Minion_Commands\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/ae976b175a1b5f50cc08d2a344855fd213f80626df88a1724b219e4c5ae3bc42\">命令</a>技能的魔力消耗<a data-keyword=\"Efficiency\" href=\"Efficiency\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/30056995ca8920f12a232330fa0b72ac52c1615b888ddd6a5b71a884a47c10f2\">效能</a>降低 <span class='mod-value'>30</span>%",
+          "englishValues": [
+            "30"
+          ],
+          "chineseValues": [
+            "30"
+          ],
+          "englishKeywords": [
+            "Efficiency",
+            "Command"
+          ],
+          "chineseKeywords": [
+            "Command",
+            "Efficiency"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poe2db-reviewed-line:bacbf573ad966c69623b2d9ad1b706eef2d30b56aa0cea05b763ff1d7a2ab408",
+      "en": "#% reduced Poison Duration",
+      "zh": "中毒持续时间降低 #%",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-complete-line-unique-mod-and-number-keyword-identity",
+      "sourceIds": [
+        "0961343ff6c060ae6e909243da79622db8cab606c7dfc59dc61dde5adcf32b0a",
+        "1b1c9f503f4a36af574e317915551bf9396dfc0fb938a13bca66a235766d854b",
+        "45a81a3d804c0eaf8b30f34b0b44d76fc4a716d0c360f0c195b947668fd9905e",
+        "47569d0865e3f6d95be5b8ca1e574dc4136532610208bb83685e505ee5e3cdf5",
+        "61953a7ad8de9d7c361541237b0828d94e1d78832851ff633420cb3186771d53",
+        "6ccb40a3262036ed22aad92bbe5e6ecd234de232781223eeb3b33016e0914879",
+        "70b430a115d3b586f19973e9988aa778f49c6679cb5d3c8119f44d9e5e277648",
+        "7b9119f6ad9d1bad1c05632b835e0699e177adb0a13f90009c7b5afe022c8010",
+        "88555c96547cb6768dabd90c4bb72b528e51d61a829bfa765c2c66070a30227a",
+        "88976d7ea338b5d9aa81e02e53aa98bb415f1deb7f94e922d68ed48de0642c9b",
+        "99f31f2acc886fd925e35cdba5bc95fddcc1eeb73a0539226fec5b7920768bb6",
+        "d4446b0d3971b2dd85203284d4bf666b39103cdc7b855161d1cb5a3340ab0163",
+        "e92285d7c9d60745c2c27c35d334183fce0536e709f9b02c9e66576cd2f9c262",
+        "f34daea3ba58c0c494ff0e1f2024105129dea6678ccb452f6dff2e53aa37a010"
+      ],
+      "localEnglishExamples": [
+        "25% reduced Poison Duration"
+      ],
+      "evidence": [
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdolofThruldana"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Crossbows_us.html",
+            "research/poe2db-equipment-bases/pages/Crossbows_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/5685dc9d9d9981bb13bd5b1b1c8d40c59150720403ce3822726e775fd66ee4bc\">Poison</a> Duration<br/>Targets can be affected by <span class='mod-value'>+1</span> of your <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/5685dc9d9d9981bb13bd5b1b1c8d40c59150720403ce3822726e775fd66ee4bc\">Poisons</a> at the same time",
+          "chineseHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%<br/>目标可以同时受到你造成的 <span class='mod-value'>+1</span> 个<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>效果影响",
+          "englishLineHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/5685dc9d9d9981bb13bd5b1b1c8d40c59150720403ce3822726e775fd66ee4bc\">Poison</a> Duration",
+          "chineseLineHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Poison"
+          ],
+          "chineseKeywords": [
+            "Poison"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        },
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdolofThruldana"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Daggers_us.html",
+            "research/poe2db-equipment-bases/pages/Daggers_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/5685dc9d9d9981bb13bd5b1b1c8d40c59150720403ce3822726e775fd66ee4bc\">Poison</a> Duration<br/>Targets can be affected by <span class='mod-value'>+1</span> of your <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/5685dc9d9d9981bb13bd5b1b1c8d40c59150720403ce3822726e775fd66ee4bc\">Poisons</a> at the same time",
+          "chineseHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%<br/>目标可以同时受到你造成的 <span class='mod-value'>+1</span> 个<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>效果影响",
+          "englishLineHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/5685dc9d9d9981bb13bd5b1b1c8d40c59150720403ce3822726e775fd66ee4bc\">Poison</a> Duration",
+          "chineseLineHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Poison"
+          ],
+          "chineseKeywords": [
+            "Poison"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        },
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdolofThruldana"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Talismans_us.html",
+            "research/poe2db-equipment-bases/pages/Talismans_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/5685dc9d9d9981bb13bd5b1b1c8d40c59150720403ce3822726e775fd66ee4bc\">Poison</a> Duration<br/>Targets can be affected by <span class='mod-value'>+1</span> of your <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/5685dc9d9d9981bb13bd5b1b1c8d40c59150720403ce3822726e775fd66ee4bc\">Poisons</a> at the same time",
+          "chineseHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%<br/>目标可以同时受到你造成的 <span class='mod-value'>+1</span> 个<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>效果影响",
+          "englishLineHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/5685dc9d9d9981bb13bd5b1b1c8d40c59150720403ce3822726e775fd66ee4bc\">Poison</a> Duration",
+          "chineseLineHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Poison"
+          ],
+          "chineseKeywords": [
+            "Poison"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        },
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdolofThruldana"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Claws_us.html",
+            "research/poe2db-equipment-bases/pages/Claws_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration<br/>Targets can be affected by <span class='mod-value'>+1</span> of your <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poisons</a> at the same time",
+          "chineseHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%<br/>目标可以同时受到你造成的 <span class='mod-value'>+1</span> 个<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>效果影响",
+          "englishLineHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration",
+          "chineseLineHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Poison"
+          ],
+          "chineseKeywords": [
+            "Poison"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        },
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdolofThruldana"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Flails_us.html",
+            "research/poe2db-equipment-bases/pages/Flails_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration<br/>Targets can be affected by <span class='mod-value'>+1</span> of your <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poisons</a> at the same time",
+          "chineseHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%<br/>目标可以同时受到你造成的 <span class='mod-value'>+1</span> 个<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>效果影响",
+          "englishLineHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration",
+          "chineseLineHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Poison"
+          ],
+          "chineseKeywords": [
+            "Poison"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        },
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdolofThruldana"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/One_Hand_Axes_us.html",
+            "research/poe2db-equipment-bases/pages/One_Hand_Axes_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration<br/>Targets can be affected by <span class='mod-value'>+1</span> of your <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poisons</a> at the same time",
+          "chineseHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%<br/>目标可以同时受到你造成的 <span class='mod-value'>+1</span> 个<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>效果影响",
+          "englishLineHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration",
+          "chineseLineHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Poison"
+          ],
+          "chineseKeywords": [
+            "Poison"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        },
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdolofThruldana"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/One_Hand_Maces_us.html",
+            "research/poe2db-equipment-bases/pages/One_Hand_Maces_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration<br/>Targets can be affected by <span class='mod-value'>+1</span> of your <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poisons</a> at the same time",
+          "chineseHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%<br/>目标可以同时受到你造成的 <span class='mod-value'>+1</span> 个<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>效果影响",
+          "englishLineHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration",
+          "chineseLineHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Poison"
+          ],
+          "chineseKeywords": [
+            "Poison"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        },
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdolofThruldana"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/One_Hand_Swords_us.html",
+            "research/poe2db-equipment-bases/pages/One_Hand_Swords_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration<br/>Targets can be affected by <span class='mod-value'>+1</span> of your <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poisons</a> at the same time",
+          "chineseHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%<br/>目标可以同时受到你造成的 <span class='mod-value'>+1</span> 个<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>效果影响",
+          "englishLineHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration",
+          "chineseLineHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Poison"
+          ],
+          "chineseKeywords": [
+            "Poison"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        },
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdolofThruldana"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Quarterstaves_us.html",
+            "research/poe2db-equipment-bases/pages/Quarterstaves_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration<br/>Targets can be affected by <span class='mod-value'>+1</span> of your <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poisons</a> at the same time",
+          "chineseHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%<br/>目标可以同时受到你造成的 <span class='mod-value'>+1</span> 个<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>效果影响",
+          "englishLineHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration",
+          "chineseLineHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Poison"
+          ],
+          "chineseKeywords": [
+            "Poison"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        },
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdolofThruldana"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Spears_us.html",
+            "research/poe2db-equipment-bases/pages/Spears_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration<br/>Targets can be affected by <span class='mod-value'>+1</span> of your <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poisons</a> at the same time",
+          "chineseHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%<br/>目标可以同时受到你造成的 <span class='mod-value'>+1</span> 个<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>效果影响",
+          "englishLineHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration",
+          "chineseLineHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Poison"
+          ],
+          "chineseKeywords": [
+            "Poison"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        },
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdolofThruldana"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Two_Hand_Axes_us.html",
+            "research/poe2db-equipment-bases/pages/Two_Hand_Axes_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration<br/>Targets can be affected by <span class='mod-value'>+1</span> of your <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poisons</a> at the same time",
+          "chineseHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%<br/>目标可以同时受到你造成的 <span class='mod-value'>+1</span> 个<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>效果影响",
+          "englishLineHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration",
+          "chineseLineHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Poison"
+          ],
+          "chineseKeywords": [
+            "Poison"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        },
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdolofThruldana"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Two_Hand_Maces_us.html",
+            "research/poe2db-equipment-bases/pages/Two_Hand_Maces_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration<br/>Targets can be affected by <span class='mod-value'>+1</span> of your <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poisons</a> at the same time",
+          "chineseHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%<br/>目标可以同时受到你造成的 <span class='mod-value'>+1</span> 个<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>效果影响",
+          "englishLineHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration",
+          "chineseLineHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Poison"
+          ],
+          "chineseKeywords": [
+            "Poison"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        },
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdolofThruldana"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Two_Hand_Swords_us.html",
+            "research/poe2db-equipment-bases/pages/Two_Hand_Swords_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration<br/>Targets can be affected by <span class='mod-value'>+1</span> of your <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poisons</a> at the same time",
+          "chineseHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%<br/>目标可以同时受到你造成的 <span class='mod-value'>+1</span> 个<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>效果影响",
+          "englishLineHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bf3f870bd92245bc97e75b280ccc83f2aea8c369258ab495cdc7ddf38f88ea0e\">Poison</a> Duration",
+          "chineseLineHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/2fd0fc2b0e119ef9d0667b2418bd429dd4308f4c871586b2646130107bda9726\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Poison"
+          ],
+          "chineseKeywords": [
+            "Poison"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        },
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdolofThruldana"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Bows_us.html",
+            "research/poe2db-equipment-bases/pages/Bows_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/5685dc9d9d9981bb13bd5b1b1c8d40c59150720403ce3822726e775fd66ee4bc\">Poison</a> Duration<br/>Targets can be affected by <span class='mod-value'>+1</span> of your <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/5685dc9d9d9981bb13bd5b1b1c8d40c59150720403ce3822726e775fd66ee4bc\">Poisons</a> at the same time",
+          "chineseHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/90858b3c3bf287547868bd110f7e545fd2896cdda52b145b649da7d0a960e513\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%<br/>目标可以同时受到你造成的 <span class='mod-value'>+1</span> 个<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/90858b3c3bf287547868bd110f7e545fd2896cdda52b145b649da7d0a960e513\">中毒</a>效果影响",
+          "englishLineHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/5685dc9d9d9981bb13bd5b1b1c8d40c59150720403ce3822726e775fd66ee4bc\">Poison</a> Duration",
+          "chineseLineHtml": "<a data-keyword=\"Poison\" href=\"Poison\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/90858b3c3bf287547868bd110f7e545fd2896cdda52b145b649da7d0a960e513\">中毒</a>持续时间降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Poison"
+          ],
+          "chineseKeywords": [
+            "Poison"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poe2db-reviewed-line:9936f3b16d096b45be372497a95e0c9a645c630d493d06e1932026676001a2ef",
+      "en": "#% reduced Presence Area of Effect",
+      "zh": "在场范围降低 #%",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-complete-line-unique-mod-and-number-keyword-identity",
+      "sourceIds": [
+        "c1b480cd7b535d19cdf936b7122ead3a436d9e9c1b16691c7f16b0ea73f21245"
+      ],
+      "localEnglishExamples": [
+        "40% reduced Presence Area of Effect"
+      ],
+      "evidence": [
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdoloftheMartyr"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Sceptres_us.html",
+            "research/poe2db-equipment-bases/pages/Sceptres_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>40</span>% reduced <a data-keyword=\"Presence\" href=\"Presence\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/df2c4d89123df3e53007e848edfd2f2670407431b7d858bf9f06c43419fa9e28\">Presence</a> Area of Effect<br/><a data-keyword=\"Aura\" href=\"Auras\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/b6a2a61149479ff416761e9012255576283b60570db8e9531b7d8a56beb6f09a\">Aura</a> Skills have <span class='mod-value'>25</span>% increased <a data-keyword=\"BuffMagnitude\" href=\"Buff_Debuff_Magnitude\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/bd9aab5ac15641e3fbf096cd2409d116f5818bb755fcfd42dd06d4ac38d6f6b5\">Magnitudes</a>",
+          "chineseHtml": "<a data-keyword=\"Presence\" href=\"Presence\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/46187e206fe8c84ea478183d4c62b3b4b075886801abdc254777618b0eaeaeb1\">在场</a>范围降低 <span class='mod-value'>40</span>%<br/><a data-keyword=\"Aura\" href=\"Auras\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/9a95e87604d5cd6ed0ef84b629cf568a9233bbacef655d231a3b5128303ae8cc\">光环</a>技能的<a data-keyword=\"BuffMagnitude\" href=\"Buff_Debuff_Magnitude\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/bd16e916c806546b0480948c649cc65f07f20511adae0c970364598736a87f0f\">强度</a>提高 <span class='mod-value'>25</span>%",
+          "englishLineHtml": "<span class='mod-value'>40</span>% reduced <a data-keyword=\"Presence\" href=\"Presence\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/df2c4d89123df3e53007e848edfd2f2670407431b7d858bf9f06c43419fa9e28\">Presence</a> Area of Effect",
+          "chineseLineHtml": "<a data-keyword=\"Presence\" href=\"Presence\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/46187e206fe8c84ea478183d4c62b3b4b075886801abdc254777618b0eaeaeb1\">在场</a>范围降低 <span class='mod-value'>40</span>%",
+          "englishValues": [
+            "40"
+          ],
+          "chineseValues": [
+            "40"
+          ],
+          "englishKeywords": [
+            "Presence"
+          ],
+          "chineseKeywords": [
+            "Presence"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poe2db-reviewed-line:4bcab98f97b0620fe2cdd1df028d92a0995b5d7a5f47dbc94e9eb83e25398b37",
+      "en": "#% reduced Spirit",
+      "zh": "精魂降低 #%",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-complete-line-unique-mod-and-number-keyword-identity",
+      "sourceIds": [
+        "3760cb84eba8fbaefeae4170cb7dde4a0b468df8aab427183e51fe247ed67c43",
+        "4b6861207fee8a83138d4ebd5d751cbe1343f4bb1b053113bb8fb32c4c8ac434"
+      ],
+      "localEnglishExamples": [
+        "25% reduced Spirit"
+      ],
+      "evidence": [
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdoloftheMartyr"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Staves_us.html",
+            "research/poe2db-equipment-bases/pages/Staves_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Spirit\" href=\"Spirit\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/0ba37aeec43462498eae858db9ba1aa919fe6a53037cbccf734926e8ff09492c\">Spirit</a><br/><a data-keyword=\"Meta\" href=\"Meta_Gems\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/73143b29a225ff9156bda33ca076b85dfc3ed096381dcf868fd9924301e5fcb0\">Meta</a> Skills gain <span class='mod-value'>40</span>% increased <a data-keyword=\"Energy\" href=\"Energy\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/3b00fe7e2b0d05de58843969f4e1567d14886d175e3bdf9fb0cb01d67ee38615\">Energy</a>",
+          "chineseHtml": "<a data-keyword=\"Spirit\" href=\"Spirit\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/c842dc190b12790ab8a7309a81a7cb55d9af143e860fc50c60d59e65e156d084\">精魂</a>降低 <span class='mod-value'>25</span>%<br/><a data-keyword=\"Meta\" href=\"Meta_Gems\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/6e0a2b7ee2a774282aa4e55666a6001d9d69bd5250bd4527a3d03fffebbaea64\">非凡</a>技能获得的<a data-keyword=\"Energy\" href=\"Energy\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/a98d7b5b447094f3e23085e44396642a11ad2e2668df116abc00748eb7afbe3a\">能量</a>提高 <span class='mod-value'>40</span>%",
+          "englishLineHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Spirit\" href=\"Spirit\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/0ba37aeec43462498eae858db9ba1aa919fe6a53037cbccf734926e8ff09492c\">Spirit</a>",
+          "chineseLineHtml": "<a data-keyword=\"Spirit\" href=\"Spirit\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/c842dc190b12790ab8a7309a81a7cb55d9af143e860fc50c60d59e65e156d084\">精魂</a>降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Spirit"
+          ],
+          "chineseKeywords": [
+            "Spirit"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        },
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdoloftheMartyr"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Wands_us.html",
+            "research/poe2db-equipment-bases/pages/Wands_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Spirit\" href=\"Spirit\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/0ba37aeec43462498eae858db9ba1aa919fe6a53037cbccf734926e8ff09492c\">Spirit</a><br/><a data-keyword=\"Meta\" href=\"Meta_Gems\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/73143b29a225ff9156bda33ca076b85dfc3ed096381dcf868fd9924301e5fcb0\">Meta</a> Skills gain <span class='mod-value'>40</span>% increased <a data-keyword=\"Energy\" href=\"Energy\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/3b00fe7e2b0d05de58843969f4e1567d14886d175e3bdf9fb0cb01d67ee38615\">Energy</a>",
+          "chineseHtml": "<a data-keyword=\"Spirit\" href=\"Spirit\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/c842dc190b12790ab8a7309a81a7cb55d9af143e860fc50c60d59e65e156d084\">精魂</a>降低 <span class='mod-value'>25</span>%<br/><a data-keyword=\"Meta\" href=\"Meta_Gems\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/6e0a2b7ee2a774282aa4e55666a6001d9d69bd5250bd4527a3d03fffebbaea64\">非凡</a>技能获得的<a data-keyword=\"Energy\" href=\"Energy\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/a98d7b5b447094f3e23085e44396642a11ad2e2668df116abc00748eb7afbe3a\">能量</a>提高 <span class='mod-value'>40</span>%",
+          "englishLineHtml": "<span class='mod-value'>25</span>% reduced <a data-keyword=\"Spirit\" href=\"Spirit\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/0ba37aeec43462498eae858db9ba1aa919fe6a53037cbccf734926e8ff09492c\">Spirit</a>",
+          "chineseLineHtml": "<a data-keyword=\"Spirit\" href=\"Spirit\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/c842dc190b12790ab8a7309a81a7cb55d9af143e860fc50c60d59e65e156d084\">精魂</a>降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Spirit"
+          ],
+          "chineseKeywords": [
+            "Spirit"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poe2db-reviewed-line:ddae43be0a035ad95c50130db095a9f300b1bc9bb4db4bc0d9d2ad7e676fd42e",
+      "en": "#% reduced maximum Mana",
+      "zh": "魔力上限降低 #%",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-complete-line-unique-mod-and-number-keyword-identity",
+      "sourceIds": [
+        "6d4966cded0637274fc65a147849d1d92064ccb6cd7ccb0497c75611b1cb09a7",
+        "b3e41075ceb3d1c5ad9e54d8f23dab03c005b254ba998ed423075c66d2dbad88"
+      ],
+      "localEnglishExamples": [
+        "30% reduced maximum Mana"
+      ],
+      "evidence": [
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdolofthePharisee"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Staves_us.html",
+            "research/poe2db-equipment-bases/pages/Staves_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>30</span>% reduced maximum Mana<br/><a data-keyword=\"Gain\" href=\"Damage_Gained_as_extra_X\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/61467b1f0553ba4c8fdb1eba5056a9ed4f89e5de75182ff9178433aacb98f577\">Gain</a> <span class='mod-value'>2</span>% of Damage as Extra <a data-keyword=\"Physical\" href=\"Physical_Damage\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/0ce20e43c14ce48075a67b3eb16ce291a6a127c8a12631607ac17ac7e9834bdb\">Physical</a> Damage per ten percent missing Mana",
+          "chineseHtml": "魔力上限降低 <span class='mod-value'>30</span>%<br/>每损失百分之十的魔力，<a data-keyword=\"Gain\" href=\"Damage_Gained_as_extra_X\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/966199dcdb9c423c0ba89e22ea75179c8cc03ffcdfe72b87ebd23932a3aee56e\">获得</a>等同于伤害 <span class='mod-value'>2</span>% 的额外<a data-keyword=\"Physical\" href=\"Physical_Damage\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/b148883dd1828d239195c6816cfa4cf590596c118d81bd710facd457446875ed\">物理</a>伤害",
+          "englishLineHtml": "<span class='mod-value'>30</span>% reduced maximum Mana",
+          "chineseLineHtml": "魔力上限降低 <span class='mod-value'>30</span>%",
+          "englishValues": [
+            "30"
+          ],
+          "chineseValues": [
+            "30"
+          ],
+          "englishKeywords": [],
+          "chineseKeywords": [],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        },
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "IdolofthePharisee"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Wands_us.html",
+            "research/poe2db-equipment-bases/pages/Wands_cn.html"
+          ],
+          "englishHtml": "<span class='mod-value'>30</span>% reduced maximum Mana<br/><a data-keyword=\"Gain\" href=\"Damage_Gained_as_extra_X\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/61467b1f0553ba4c8fdb1eba5056a9ed4f89e5de75182ff9178433aacb98f577\">Gain</a> <span class='mod-value'>2</span>% of Damage as Extra <a data-keyword=\"Physical\" href=\"Physical_Damage\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/0ce20e43c14ce48075a67b3eb16ce291a6a127c8a12631607ac17ac7e9834bdb\">Physical</a> Damage per ten percent missing Mana",
+          "chineseHtml": "魔力上限降低 <span class='mod-value'>30</span>%<br/>每损失百分之十的魔力，<a data-keyword=\"Gain\" href=\"Damage_Gained_as_extra_X\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/966199dcdb9c423c0ba89e22ea75179c8cc03ffcdfe72b87ebd23932a3aee56e\">获得</a>等同于伤害 <span class='mod-value'>2</span>% 的额外<a data-keyword=\"Physical\" href=\"Physical_Damage\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/b148883dd1828d239195c6816cfa4cf590596c118d81bd710facd457446875ed\">物理</a>伤害",
+          "englishLineHtml": "<span class='mod-value'>30</span>% reduced maximum Mana",
+          "chineseLineHtml": "魔力上限降低 <span class='mod-value'>30</span>%",
+          "englishValues": [
+            "30"
+          ],
+          "chineseValues": [
+            "30"
+          ],
+          "englishKeywords": [],
+          "chineseKeywords": [],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poe2db-reviewed-line:e86687063967ced4342cab82b42fe81d124a778a143e2d2644dc05163c4ab6e5",
+      "en": "Anaemia allows +# Corrupted Blood debuffs to be inflicted on enemies",
+      "zh": "贫血使敌人可被额外施加 +# 层腐化之血减益",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-complete-line-unique-mod-and-number-keyword-identity",
+      "sourceIds": [
+        "dfc5e651675d819d9701d3c64acf5fe8908dd0bb3038c69dc6fa022ed9f98eaf"
+      ],
+      "localEnglishExamples": [
+        "Anaemia allows +(2-3) Corrupted Blood debuffs to be inflicted on enemies"
+      ],
+      "evidence": [
+        {
+          "identity": {
+            "DropChance": 1,
+            "Level": "1",
+            "ModFamilyList": [
+              "AnaemiaOnHit"
+            ],
+            "ModGenerationTypeID": "1",
+            "adds_no": [],
+            "fossil_no": [
+              "physical"
+            ],
+            "mod_fossil_item": [],
+            "pool": "breach_otherworldly",
+            "spawn_no": [
+              "ring",
+              "belt",
+              "breach_desecration",
+              "default"
+            ]
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Amulets_us.html",
+            "research/poe2db-equipment-bases/pages/Amulets_cn.html"
+          ],
+          "englishHtml": "Inflict <a data-keyword=\"Anaemia\" href=\"Anaemia\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/931fd6d6f6c9c2d45f3c5c8f30522700093431ef4dda26282ac306f00699cba3\">Anaemia</a> on <a data-keyword=\"Hit\" href=\"Hit_Damage\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/9fb0bf92aa33225486352994a9cc3684f07d3bd018928e8bf977821f346ee0b8\">Hit</a><br/><a data-keyword=\"Anaemia\" href=\"Anaemia\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/931fd6d6f6c9c2d45f3c5c8f30522700093431ef4dda26282ac306f00699cba3\">Anaemia</a> allows <span class='mod-value'>+(2<span class=\"ndash\">—</span>3)</span> <a data-keyword=\"CorruptedBlood\" href=\"Corrupted_Blood\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/c3cf86143d749025b0b84aa7b556ce7f9628a4f035f078ed6a7f52e4f286f6fe\">Corrupted Blood</a> debuffs to be inflicted on enemies",
+          "chineseHtml": "<a data-keyword=\"Hit\" href=\"Hit_Damage\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/e8c01f0e909342714407f76131ecfbaab891c8ae86f7e45a0997dcc9ba41fbef\">击中</a>时施加<a data-keyword=\"Anaemia\" href=\"Anaemia\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/affaddb61e8dd4cd8dd6cd9ad2180d45c4facbe7c74031326c103a1760a24595\">贫血</a><br/><a data-keyword=\"Anaemia\" href=\"Anaemia\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/affaddb61e8dd4cd8dd6cd9ad2180d45c4facbe7c74031326c103a1760a24595\">贫血</a>使敌人可被额外施加 <span class='mod-value'>+(2<span class=\"ndash\">—</span>3)</span> 层<a data-keyword=\"CorruptedBlood\" href=\"Corrupted_Blood\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/fdec8eb37f260a485078a932f40e877faa4dc9ce25397926375169ea1e5b1f05\">腐化之血</a>减益",
+          "englishLineHtml": "<a data-keyword=\"Anaemia\" href=\"Anaemia\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/931fd6d6f6c9c2d45f3c5c8f30522700093431ef4dda26282ac306f00699cba3\">Anaemia</a> allows <span class='mod-value'>+(2<span class=\"ndash\">—</span>3)</span> <a data-keyword=\"CorruptedBlood\" href=\"Corrupted_Blood\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/c3cf86143d749025b0b84aa7b556ce7f9628a4f035f078ed6a7f52e4f286f6fe\">Corrupted Blood</a> debuffs to be inflicted on enemies",
+          "chineseLineHtml": "<a data-keyword=\"Anaemia\" href=\"Anaemia\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/affaddb61e8dd4cd8dd6cd9ad2180d45c4facbe7c74031326c103a1760a24595\">贫血</a>使敌人可被额外施加 <span class='mod-value'>+(2<span class=\"ndash\">—</span>3)</span> 层<a data-keyword=\"CorruptedBlood\" href=\"Corrupted_Blood\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/fdec8eb37f260a485078a932f40e877faa4dc9ce25397926375169ea1e5b1f05\">腐化之血</a>减益",
+          "englishValues": [
+            "(2-3)"
+          ],
+          "chineseValues": [
+            "(2-3)"
+          ],
+          "englishKeywords": [
+            "Anaemia",
+            "CorruptedBlood"
+          ],
+          "chineseKeywords": [
+            "Anaemia",
+            "CorruptedBlood"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poe2db-reviewed-line:fe204f3dced5147dc2cc29d1c01e5f5d969315853e1be25baef01c67db7a510c",
+      "en": "Inflict Anaemia on Hit",
+      "zh": "击中时施加贫血",
+      "capture_map": [],
+      "verification": "poe2db-cn-us-reviewed-complete-line-unique-mod-and-number-keyword-identity",
+      "sourceIds": [
+        "ed6f9f0308915bbbd7f950a72d3b9379c3801af49c5223625ce2e05947fdc9b0"
+      ],
+      "localEnglishExamples": [
+        "Inflict Anaemia on Hit"
+      ],
+      "evidence": [
+        {
+          "identity": {
+            "DropChance": 1,
+            "Level": "1",
+            "ModFamilyList": [
+              "AnaemiaOnHit"
+            ],
+            "ModGenerationTypeID": "1",
+            "adds_no": [],
+            "fossil_no": [
+              "physical"
+            ],
+            "mod_fossil_item": [],
+            "pool": "breach_otherworldly",
+            "spawn_no": [
+              "ring",
+              "belt",
+              "breach_desecration",
+              "default"
+            ]
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Amulets_us.html",
+            "research/poe2db-equipment-bases/pages/Amulets_cn.html"
+          ],
+          "englishHtml": "Inflict <a data-keyword=\"Anaemia\" href=\"Anaemia\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/931fd6d6f6c9c2d45f3c5c8f30522700093431ef4dda26282ac306f00699cba3\">Anaemia</a> on <a data-keyword=\"Hit\" href=\"Hit_Damage\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/9fb0bf92aa33225486352994a9cc3684f07d3bd018928e8bf977821f346ee0b8\">Hit</a><br/><a data-keyword=\"Anaemia\" href=\"Anaemia\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/931fd6d6f6c9c2d45f3c5c8f30522700093431ef4dda26282ac306f00699cba3\">Anaemia</a> allows <span class='mod-value'>+(2<span class=\"ndash\">—</span>3)</span> <a data-keyword=\"CorruptedBlood\" href=\"Corrupted_Blood\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/c3cf86143d749025b0b84aa7b556ce7f9628a4f035f078ed6a7f52e4f286f6fe\">Corrupted Blood</a> debuffs to be inflicted on enemies",
+          "chineseHtml": "<a data-keyword=\"Hit\" href=\"Hit_Damage\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/e8c01f0e909342714407f76131ecfbaab891c8ae86f7e45a0997dcc9ba41fbef\">击中</a>时施加<a data-keyword=\"Anaemia\" href=\"Anaemia\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/affaddb61e8dd4cd8dd6cd9ad2180d45c4facbe7c74031326c103a1760a24595\">贫血</a><br/><a data-keyword=\"Anaemia\" href=\"Anaemia\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/affaddb61e8dd4cd8dd6cd9ad2180d45c4facbe7c74031326c103a1760a24595\">贫血</a>使敌人可被额外施加 <span class='mod-value'>+(2<span class=\"ndash\">—</span>3)</span> 层<a data-keyword=\"CorruptedBlood\" href=\"Corrupted_Blood\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/fdec8eb37f260a485078a932f40e877faa4dc9ce25397926375169ea1e5b1f05\">腐化之血</a>减益",
+          "englishLineHtml": "Inflict <a data-keyword=\"Anaemia\" href=\"Anaemia\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/931fd6d6f6c9c2d45f3c5c8f30522700093431ef4dda26282ac306f00699cba3\">Anaemia</a> on <a data-keyword=\"Hit\" href=\"Hit_Damage\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/9fb0bf92aa33225486352994a9cc3684f07d3bd018928e8bf977821f346ee0b8\">Hit</a>",
+          "chineseLineHtml": "<a data-keyword=\"Hit\" href=\"Hit_Damage\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/e8c01f0e909342714407f76131ecfbaab891c8ae86f7e45a0997dcc9ba41fbef\">击中</a>时施加<a data-keyword=\"Anaemia\" href=\"Anaemia\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/affaddb61e8dd4cd8dd6cd9ad2180d45c4facbe7c74031326c103a1760a24595\">贫血</a>",
+          "englishValues": [],
+          "chineseValues": [],
+          "englishKeywords": [
+            "Anaemia",
+            "Hit"
+          ],
+          "chineseKeywords": [
+            "Hit",
+            "Anaemia"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": []
+        }
+      ]
+    },
+    {
+      "id": "poe2db-reviewed-line:6129d3cd94cfb323a6836b67b1ed9b4af22c37cd80720f5b07f6330a4a62667a",
+      "en": "Remnants you create have #% reduced effect",
+      "zh": "你生成的残片效果降低 #%",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-complete-line-unique-mod-and-number-keyword-identity",
+      "sourceIds": [
+        "20c824fc6d282c900fe3294475fdd4f290bee2e2e0a3c7f13d86f755027975b8",
+        "dae8964170b02fc16b065b959dfa7d0f8d1b78fc05d224d3a3eb33a53e8e6161"
+      ],
+      "localEnglishExamples": [
+        "Remnants you create have 25% reduced effect"
+      ],
+      "evidence": [
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "RuneofReach"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Staves_us.html",
+            "research/poe2db-equipment-bases/pages/Staves_cn.html"
+          ],
+          "englishHtml": "<a data-keyword=\"Remnant\" href=\"Remnants\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/ceb2f6dcbab55792cc09fdec9ef35558d45d8a0d489a47f1e8a3f3dd9dc56516\">Remnants</a> can be collected from <span class='mod-value'>50</span>% further away<br/><a data-keyword=\"Remnant\" href=\"Remnants\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/ceb2f6dcbab55792cc09fdec9ef35558d45d8a0d489a47f1e8a3f3dd9dc56516\">Remnants</a> you create have <span class='mod-value'>25</span>% reduced effect",
+          "chineseHtml": "<a data-keyword=\"Remnant\" href=\"Remnants\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/a8ea7594dc4458cfa31690bf0f4904aa260558a6d475357edb4d859a10e503b3\">残片</a>收集距离延长 <span class='mod-value'>50</span>%<br/>你生成的<a data-keyword=\"Remnant\" href=\"Remnants\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/a8ea7594dc4458cfa31690bf0f4904aa260558a6d475357edb4d859a10e503b3\">残片</a>效果降低 <span class='mod-value'>25</span>%",
+          "englishLineHtml": "<a data-keyword=\"Remnant\" href=\"Remnants\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/ceb2f6dcbab55792cc09fdec9ef35558d45d8a0d489a47f1e8a3f3dd9dc56516\">Remnants</a> you create have <span class='mod-value'>25</span>% reduced effect",
+          "chineseLineHtml": "你生成的<a data-keyword=\"Remnant\" href=\"Remnants\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/a8ea7594dc4458cfa31690bf0f4904aa260558a6d475357edb4d859a10e503b3\">残片</a>效果降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Remnant"
+          ],
+          "chineseKeywords": [
+            "Remnant"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        },
+        {
+          "identity": {
+            "DropChance": 0,
+            "Level": 1,
+            "ModFamilyList": [
+              "RuneofReach"
+            ],
+            "ModGenerationTypeID": 0,
+            "fossil_no": [],
+            "pool": "socketable",
+            "type": "socketable"
+          },
+          "snapshots": [
+            "research/poe2db-equipment-bases/pages/Wands_us.html",
+            "research/poe2db-equipment-bases/pages/Wands_cn.html"
+          ],
+          "englishHtml": "<a data-keyword=\"Remnant\" href=\"Remnants\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/ceb2f6dcbab55792cc09fdec9ef35558d45d8a0d489a47f1e8a3f3dd9dc56516\">Remnants</a> can be collected from <span class='mod-value'>50</span>% further away<br/><a data-keyword=\"Remnant\" href=\"Remnants\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/ceb2f6dcbab55792cc09fdec9ef35558d45d8a0d489a47f1e8a3f3dd9dc56516\">Remnants</a> you create have <span class='mod-value'>25</span>% reduced effect",
+          "chineseHtml": "<a data-keyword=\"Remnant\" href=\"Remnants\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/a8ea7594dc4458cfa31690bf0f4904aa260558a6d475357edb4d859a10e503b3\">残片</a>收集距离延长 <span class='mod-value'>50</span>%<br/>你生成的<a data-keyword=\"Remnant\" href=\"Remnants\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/a8ea7594dc4458cfa31690bf0f4904aa260558a6d475357edb4d859a10e503b3\">残片</a>效果降低 <span class='mod-value'>25</span>%",
+          "englishLineHtml": "<a data-keyword=\"Remnant\" href=\"Remnants\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/ceb2f6dcbab55792cc09fdec9ef35558d45d8a0d489a47f1e8a3f3dd9dc56516\">Remnants</a> you create have <span class='mod-value'>25</span>% reduced effect",
+          "chineseLineHtml": "你生成的<a data-keyword=\"Remnant\" href=\"Remnants\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/a8ea7594dc4458cfa31690bf0f4904aa260558a6d475357edb4d859a10e503b3\">残片</a>效果降低 <span class='mod-value'>25</span>%",
+          "englishValues": [
+            "25"
+          ],
+          "chineseValues": [
+            "25"
+          ],
+          "englishKeywords": [
+            "Remnant"
+          ],
+          "chineseKeywords": [
+            "Remnant"
+          ],
+          "lineIdentity": "unique-numeric-value-and-keyword-and-fixed-number-multisets-within-both-modifier-blocks",
+          "capture_map": [
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}

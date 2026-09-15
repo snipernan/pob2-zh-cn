@@ -1,0 +1,32 @@
+name: Checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install LuaJIT
+        run: sudo apt-get update && sudo apt-get install -y luajit
+      - name: Rebuild dictionaries offline
+        run: |
+          python3 build_assets.py
+          git diff --exit-code -- payload/dictionary.lua payload/game_dictionary.lua payload/equipment_dictionary.lua charset.txt
+      - name: Validate sources and public files
+        run: python3 scripts/check_repository.py
+      - name: Installer and translation tests
+        run: |
+          python3 test_install.py
+          python3 verify_tree_overlay.py
+          python3 run_lua.py tests.lua
+          python3 run_lua.py tests_game_text.lua
+      - name: Build installable ZIP
+        run: python3 scripts/package_plugin.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pob2-zh-cn-plugin
+          path: dist/pob2-zh-cn-plugin-*.zip*

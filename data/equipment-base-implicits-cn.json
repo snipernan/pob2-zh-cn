@@ -1,0 +1,1003 @@
+{
+  "schema": 1,
+  "sources": {
+    "data/equipment-bases-cn.json": "6d23f5b59828cf2b56fbe492fe33f2cb0d2ed1850647862280b1e8fb00ef686e",
+    "research/poe2db-equipment-bases/pages/Amulets_cn.html": "312a80832fbc4eecf894bd9131c98696b610fc764ee3fa5f4469825509b174e6",
+    "research/poe2db-equipment-bases/pages/Amulets_us.html": "a958d8aba68bd697e0ac8aae34251db0c25876f10bbc90fe3a5473a003cbecc7",
+    "research/poe2db-equipment-bases/pages/Charms_cn.html": "c076c5e1bce2c4cc845d8e237c38e1a0fd9b50f70ffdc9087e3f0865f18c9fdd",
+    "research/poe2db-equipment-bases/pages/Charms_us.html": "75b4ae0ef7d71d794c170c21c2f97535a6d3e63e081beefe698d949f1c3fead7",
+    "research/poe2db-equipment-bases/pages/Daggers_cn.html": "7c607627f5dc2abaefce60cf33f38eb8b58ce3f30c064c07fb33d6fa3cdfa3e7",
+    "research/poe2db-equipment-bases/pages/Daggers_us.html": "556e75bb31a2b0b7f3f38b6107ee7b0d897b27f33b07bca0ce1d051bd8817d0b",
+    "research/poe2db-equipment-bases/pages/Flails_cn.html": "9e06c04e889f064170d515de8bf10c96f95d6269291e2701dab496c795200265",
+    "research/poe2db-equipment-bases/pages/Flails_us.html": "ad02f4c192ad4005164595a541b7f793accdc1d39809a9adadb1dfbecb278c3c",
+    "research/poe2db-equipment-bases/pages/Gloves_cn.html": "3b35da18465eb543a3e89a67d1c1e9826c08d5ef7afb7fee6478707b2c2ae2bc",
+    "research/poe2db-equipment-bases/pages/Gloves_us.html": "d790a3d71859c172b54186ec22a241a353172359536c1c4dbcd274d7777572b6",
+    "research/poe2db-equipment-bases/pages/Helmets_cn.html": "fa2a4577993d37fae8f497b2b7d838af574d26311c06cda96b2ada1f7a6e6eeb",
+    "research/poe2db-equipment-bases/pages/Helmets_us.html": "5f6bc94843889b5ac605109bd4c10624328f0b69c5b7af2faa5663132d064ec6",
+    "research/poe2db-equipment-bases/pages/One_Hand_Axes_cn.html": "020404e304aff74f5ee339a4308095441e12c4dc4708b95cb8acdc6ec0cf3ee0",
+    "research/poe2db-equipment-bases/pages/One_Hand_Axes_us.html": "7853d36b1b977e8a36085f872c7ddfc17a6b673938f5d3534e63f6f1d3952fc9",
+    "research/poe2db-equipment-bases/pages/Quarterstaves_cn.html": "f41334092d2482b101bb11c0396b856631a2a5b2526a030ea5ba29212215dc4f",
+    "research/poe2db-equipment-bases/pages/Quarterstaves_us.html": "18b295fbf51d86a9beb0d93e610f887213896ca6bd2e0a6178629738af894a7f",
+    "research/poe2db-equipment-bases/pages/Surefooted_Leg_cn.html": "5aa9ec29b147f7c0703b605b0299f1a5cb6eda87f31c0f1a1f0b5d8244eb98cb",
+    "research/poe2db-equipment-bases/pages/Surefooted_Leg_us.html": "76feb7982ad57c96faaad539b8a85861fa94f94dcdca851e6252a4eaa03a54f8",
+    "research/poe2db-equipment-bases/pages/Traps_cn.html": "96951a7c8c3e201ef05d0ccacddfe702e835ea25d05393fa0ff54bf3db2b4bae",
+    "research/poe2db-equipment-bases/pages/Traps_us.html": "daa5ccece9fc3d3d5d00cfe386757ea517f3a70fce0f5995c624204675e9e9d5"
+  },
+  "summary": {
+    "templates": 14,
+    "reviewedBaseImplicitRawLines": 18,
+    "sourceEnglishChineseOriginalClauses": true
+  },
+  "entries": [
+    {
+      "id": "poe2db-base-implicit:45a41511500944d2127d22adf7788859b4ef26d6c15f1938e707dc177f01427a",
+      "en": "#% increased Cooldown Recovery Rate for throwing Traps",
+      "zh": "陷阱冷却回复速度提高 #%",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-base-implicit-scalar-clause-identity",
+      "sourceIds": [
+        "https://poe2db.tw/us/Incense_Trap",
+        "https://poe2db.tw/cn/Incense_Trap"
+      ],
+      "evidence": [
+        {
+          "baseEnglish": "Incense Trap",
+          "baseChinese": "熏香陷阱",
+          "baseIdentity": {
+            "sourceIds": [
+              "poe2db-base-page:Incense_Trap"
+            ],
+            "slug": "Incense_Trap",
+            "itemClasses": [
+              "TrapTool"
+            ],
+            "images": [
+              "https://cdn.poe2db.tw/image/Art/2DItems/Weapons/OneHandWeapons/Traps/TrapRemote02.webp"
+            ],
+            "sourceUrls": [
+              "https://poe2db.tw/us/Incense_Trap",
+              "https://poe2db.tw/cn/Incense_Trap"
+            ],
+            "sourceSnapshots": [
+              {
+                "file": "pages/Traps_us.html",
+                "sha256": "daa5ccece9fc3d3d5d00cfe386757ea517f3a70fce0f5995c624204675e9e9d5"
+              },
+              {
+                "file": "pages/Traps_cn.html",
+                "sha256": "96951a7c8c3e201ef05d0ccacddfe702e835ea25d05393fa0ff54bf3db2b4bae"
+              }
+            ],
+            "verification": "poe2db-cn-us-same-baseitem-page-slug-class-image-exact-english-name"
+          },
+          "englishLineHtml": "<span class=\"mod-value\">(20<span class=\"ndash\">—</span>30)</span>% increased Cooldown Recovery Rate for throwing <a data-keyword=\"Trap\" href=\"Traps\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/5bfaaf57549666f222694744a0b92529f204842c510a1a3b994d2eb2041d2356\">Traps</a>",
+          "chineseLineHtml": "<a data-keyword=\"Trap\" href=\"Traps\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/350311356dc2fb7184cd31b346357ebe59899698c57ceb008c13d8214d6a788d\">陷阱</a>冷却回复速度提高 <span class=\"mod-value\">(20<span class=\"ndash\">—</span>30)</span>%",
+          "englishValues": [
+            "(20-30)"
+          ],
+          "chineseValues": [
+            "(20-30)"
+          ],
+          "englishKeywords": [
+            "Trap"
+          ],
+          "chineseKeywords": [
+            "Trap"
+          ],
+          "englishCardLines": [
+            "#% increased Cooldown Recovery Rate for throwing Traps"
+          ],
+          "chineseCardLines": [
+            "陷阱冷却回复速度提高 #%"
+          ],
+          "capture_map": [
+            1
+          ],
+          "lineReview": "explicit complete source clause with matching keyword and numeric multisets, never positional row alignment"
+        }
+      ]
+    },
+    {
+      "id": "poe2db-base-implicit:795f5f06c25a7d67fc8b1ad6e170a2aa295de884fedf7fe0fdc38def8d5c2f17",
+      "en": "#% chance to Daze on Hit",
+      "zh": "击中时有 #% 的几率使目标恍惚",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-base-implicit-scalar-clause-identity",
+      "sourceIds": [
+        "https://poe2db.tw/us/Hefty_Quarterstaff",
+        "https://poe2db.tw/cn/Hefty_Quarterstaff"
+      ],
+      "evidence": [
+        {
+          "baseEnglish": "Hefty Quarterstaff",
+          "baseChinese": "沉重节杖",
+          "baseIdentity": {
+            "sourceIds": [
+              "poe2db-base-page:Hefty_Quarterstaff"
+            ],
+            "slug": "Hefty_Quarterstaff",
+            "itemClasses": [
+              "Warstaff"
+            ],
+            "images": [
+              "https://cdn.poe2db.tw/image/Art/2DItems/Weapons/TwoHandWeapons/WarStaves/Warstaff09.webp"
+            ],
+            "sourceUrls": [
+              "https://poe2db.tw/us/Hefty_Quarterstaff",
+              "https://poe2db.tw/cn/Hefty_Quarterstaff"
+            ],
+            "sourceSnapshots": [
+              {
+                "file": "pages/Quarterstaves_us.html",
+                "sha256": "18b295fbf51d86a9beb0d93e610f887213896ca6bd2e0a6178629738af894a7f"
+              },
+              {
+                "file": "pages/Quarterstaves_cn.html",
+                "sha256": "f41334092d2482b101bb11c0396b856631a2a5b2526a030ea5ba29212215dc4f"
+              }
+            ],
+            "verification": "poe2db-cn-us-same-baseitem-page-slug-class-image-exact-english-name"
+          },
+          "englishLineHtml": "<span class=\"mod-value\">(20<span class=\"ndash\">—</span>50)</span>% chance to <a data-keyword=\"Daze\" href=\"Daze\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/d6318497d443ae9eae5e82647daa1f3c1372705bc3778500503b2b5661368c29\">Daze</a> on <a data-keyword=\"Hit\" href=\"Hit_Damage\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/9fb0bf92aa33225486352994a9cc3684f07d3bd018928e8bf977821f346ee0b8\">Hit</a>",
+          "chineseLineHtml": "<a data-keyword=\"Hit\" href=\"Hit_Damage\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/e8c01f0e909342714407f76131ecfbaab891c8ae86f7e45a0997dcc9ba41fbef\">击中</a>时有 <span class=\"mod-value\">(20<span class=\"ndash\">—</span>50)</span>% 的几率使目标<a data-keyword=\"Daze\" href=\"Daze\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/4024cf1a8203d06cfd88ba1b62595c8e3f83ed3c9f180f6f119ea88116d7d3e9\">恍惚</a>",
+          "englishValues": [
+            "(20-50)"
+          ],
+          "chineseValues": [
+            "(20-50)"
+          ],
+          "englishKeywords": [
+            "Daze",
+            "Hit"
+          ],
+          "chineseKeywords": [
+            "Hit",
+            "Daze"
+          ],
+          "englishCardLines": [
+            "#% chance to Daze on Hit"
+          ],
+          "chineseCardLines": [
+            "击中时有 #% 的几率使目标恍惚"
+          ],
+          "capture_map": [
+            1
+          ],
+          "lineReview": "explicit complete source clause with matching keyword and numeric multisets, never positional row alignment"
+        }
+      ]
+    },
+    {
+      "id": "poe2db-base-implicit:b61a81cac078577d886d1a742028b390c3d11d2da0aa8ca459497509745b0b84",
+      "en": "#% reduced Movement Speed Penalty from using Skills while moving",
+      "zh": "移动时使用技能的移动速度惩罚降低 #%",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-base-implicit-scalar-clause-identity",
+      "sourceIds": [
+        "https://poe2db.tw/us/Surefooted_Leg",
+        "https://poe2db.tw/cn/Surefooted_Leg"
+      ],
+      "evidence": [
+        {
+          "baseEnglish": "Surefooted Leg",
+          "baseChinese": "稳步之腿",
+          "baseIdentity": {
+            "sourceIds": [
+              "Metadata/Items/Incursion/Leg4"
+            ],
+            "metadataId": "Metadata/Items/Incursion/Leg4",
+            "itemClasses": [
+              "Transcendent Leg"
+            ],
+            "itemClassesChinese": [
+              "超凡之腿"
+            ],
+            "images": [
+              "Art/2DItems/Maps/TempleMap"
+            ],
+            "slug": "Surefooted_Leg",
+            "sourceUrls": [
+              "https://poe2db.tw/us/Surefooted_Leg",
+              "https://poe2db.tw/cn/Surefooted_Leg"
+            ],
+            "sourceSnapshots": [
+              {
+                "file": "pages/Surefooted_Leg_us.html",
+                "sha256": "76feb7982ad57c96faaad539b8a85861fa94f94dcdca851e6252a4eaa03a54f8"
+              },
+              {
+                "file": "pages/Surefooted_Leg_cn.html",
+                "sha256": "5aa9ec29b147f7c0703b605b0299f1a5cb6eda87f31c0f1a1f0b5d8244eb98cb"
+              }
+            ],
+            "verification": "poe2db-cn-us-metadata-id-basetype-and-icon"
+          },
+          "englishLineHtml": "<span class=\"mod-value\">(5<span class=\"ndash\">—</span>10)</span>% reduced Movement Speed Penalty from using Skills while moving",
+          "chineseLineHtml": "移动时使用技能的移动速度惩罚降低 <span class=\"mod-value\">(5<span class=\"ndash\">—</span>10)</span>%",
+          "englishValues": [
+            "(5-10)"
+          ],
+          "chineseValues": [
+            "(5-10)"
+          ],
+          "englishKeywords": [],
+          "chineseKeywords": [],
+          "englishCardLines": [
+            "has incursion limb [1]",
+            "#% reduced Movement Speed Penalty from using Skills while moving"
+          ],
+          "chineseCardLines": [
+            "has incursion limb [1]",
+            "移动时使用技能的移动速度惩罚降低 #%"
+          ],
+          "capture_map": [
+            1
+          ],
+          "lineReview": "explicit complete source clause with matching keyword and numeric multisets, never positional row alignment"
+        }
+      ]
+    },
+    {
+      "id": "poe2db-base-implicit:d87e89c7910a6d6ff759e12b4047b67200c2ec4f23367977a9149a0fcc2e4613",
+      "en": "+# Prefix Modifiers allowed",
+      "zh": "允许的前缀 +#",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-base-implicit-scalar-clause-identity",
+      "sourceIds": [
+        "https://poe2db.tw/us/Penumbra_Amulet",
+        "https://poe2db.tw/cn/Penumbra_Amulet"
+      ],
+      "evidence": [
+        {
+          "baseEnglish": "Penumbra Amulet",
+          "baseChinese": "半影项链",
+          "baseIdentity": {
+            "sourceIds": [
+              "poe2db-base-page:Penumbra_Amulet"
+            ],
+            "slug": "Penumbra_Amulet",
+            "itemClasses": [
+              "Amulet"
+            ],
+            "images": [
+              "https://cdn.poe2db.tw/image/Art/2DItems/Amulets/HeistAmulet2.webp"
+            ],
+            "sourceUrls": [
+              "https://poe2db.tw/us/Penumbra_Amulet",
+              "https://poe2db.tw/cn/Penumbra_Amulet"
+            ],
+            "sourceSnapshots": [
+              {
+                "file": "pages/Amulets_us.html",
+                "sha256": "a958d8aba68bd697e0ac8aae34251db0c25876f10bbc90fe3a5473a003cbecc7"
+              },
+              {
+                "file": "pages/Amulets_cn.html",
+                "sha256": "312a80832fbc4eecf894bd9131c98696b610fc764ee3fa5f4469825509b174e6"
+              }
+            ],
+            "verification": "poe2db-cn-us-same-baseitem-page-slug-class-image-exact-english-name"
+          },
+          "englishLineHtml": "<span class=\"mod-value\">+2</span> Prefix Modifiers allowed",
+          "chineseLineHtml": "允许的前缀 <span class=\"mod-value\">+2</span>",
+          "englishValues": [
+            "2"
+          ],
+          "chineseValues": [
+            "2"
+          ],
+          "englishKeywords": [],
+          "chineseKeywords": [],
+          "englishCardLines": [
+            "+# Prefix Modifiers allowed",
+            "# Suffix Modifiers allowed"
+          ],
+          "chineseCardLines": [
+            "允许的前缀 +#",
+            "允许的后缀 #"
+          ],
+          "capture_map": [
+            1
+          ],
+          "lineReview": "explicit complete source clause with matching keyword and numeric multisets, never positional row alignment"
+        }
+      ]
+    },
+    {
+      "id": "poe2db-base-implicit:4729e6cc9fc0f214060cf4f6cea29892e0fdc371da4353aca701d1ead82a962f",
+      "en": "+# Suffix Modifiers allowed",
+      "zh": "允许的后缀 +#",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-base-implicit-scalar-clause-identity",
+      "sourceIds": [
+        "https://poe2db.tw/us/Tenebrous_Amulet",
+        "https://poe2db.tw/cn/Tenebrous_Amulet"
+      ],
+      "evidence": [
+        {
+          "baseEnglish": "Tenebrous Amulet",
+          "baseChinese": "暗黑项链",
+          "baseIdentity": {
+            "sourceIds": [
+              "poe2db-base-page:Tenebrous_Amulet"
+            ],
+            "slug": "Tenebrous_Amulet",
+            "itemClasses": [
+              "Amulet"
+            ],
+            "images": [
+              "https://cdn.poe2db.tw/image/Art/2DItems/Amulets/HeistAmulet2.webp"
+            ],
+            "sourceUrls": [
+              "https://poe2db.tw/us/Tenebrous_Amulet",
+              "https://poe2db.tw/cn/Tenebrous_Amulet"
+            ],
+            "sourceSnapshots": [
+              {
+                "file": "pages/Amulets_us.html",
+                "sha256": "a958d8aba68bd697e0ac8aae34251db0c25876f10bbc90fe3a5473a003cbecc7"
+              },
+              {
+                "file": "pages/Amulets_cn.html",
+                "sha256": "312a80832fbc4eecf894bd9131c98696b610fc764ee3fa5f4469825509b174e6"
+              }
+            ],
+            "verification": "poe2db-cn-us-same-baseitem-page-slug-class-image-exact-english-name"
+          },
+          "englishLineHtml": "<span class=\"mod-value\">+2</span> Suffix Modifiers allowed",
+          "chineseLineHtml": "允许的后缀 <span class=\"mod-value\">+2</span>",
+          "englishValues": [
+            "2"
+          ],
+          "chineseValues": [
+            "2"
+          ],
+          "englishKeywords": [],
+          "chineseKeywords": [],
+          "englishCardLines": [
+            "# Prefix Modifiers allowed",
+            "+# Suffix Modifiers allowed"
+          ],
+          "chineseCardLines": [
+            "允许的前缀 #",
+            "允许的后缀 +#"
+          ],
+          "capture_map": [
+            1
+          ],
+          "lineReview": "explicit complete source clause with matching keyword and numeric multisets, never positional row alignment"
+        }
+      ]
+    },
+    {
+      "id": "poe2db-base-implicit:84dd97065f327e029569b284c7b7a62857ba174fcd619f1e2dbc9ccbf1969aff",
+      "en": "#% increased Damage taken",
+      "zh": "承受伤害提高 #%",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-base-implicit-scalar-clause-identity",
+      "sourceIds": [
+        "https://poe2db.tw/us/Fury_Cleaver",
+        "https://poe2db.tw/cn/Fury_Cleaver"
+      ],
+      "evidence": [
+        {
+          "baseEnglish": "Fury Cleaver",
+          "baseChinese": "暴怒战斧",
+          "baseIdentity": {
+            "sourceIds": [
+              "poe2db-base-page:Fury_Cleaver"
+            ],
+            "slug": "Fury_Cleaver",
+            "itemClasses": [
+              "OneHandAxe"
+            ],
+            "images": [
+              "https://cdn.poe2db.tw/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/Basetypes/1HAxe10.webp"
+            ],
+            "sourceUrls": [
+              "https://poe2db.tw/us/Fury_Cleaver",
+              "https://poe2db.tw/cn/Fury_Cleaver"
+            ],
+            "sourceSnapshots": [
+              {
+                "file": "pages/One_Hand_Axes_us.html",
+                "sha256": "7853d36b1b977e8a36085f872c7ddfc17a6b673938f5d3534e63f6f1d3952fc9"
+              },
+              {
+                "file": "pages/One_Hand_Axes_cn.html",
+                "sha256": "020404e304aff74f5ee339a4308095441e12c4dc4708b95cb8acdc6ec0cf3ee0"
+              }
+            ],
+            "verification": "poe2db-cn-us-same-baseitem-page-slug-class-image-exact-english-name"
+          },
+          "englishLineHtml": "<span class=\"mod-value\">10</span>% increased Damage taken",
+          "chineseLineHtml": "承受伤害提高 <span class=\"mod-value\">10</span>%",
+          "englishValues": [
+            "10"
+          ],
+          "chineseValues": [
+            "10"
+          ],
+          "englishKeywords": [],
+          "chineseKeywords": [],
+          "englishCardLines": [
+            "#% increased Damage taken"
+          ],
+          "chineseCardLines": [
+            "承受伤害提高 #%"
+          ],
+          "capture_map": [
+            1
+          ],
+          "lineReview": "explicit complete source clause with matching keyword and numeric multisets, never positional row alignment"
+        }
+      ]
+    },
+    {
+      "id": "poe2db-base-implicit:348fa9a1ef2c8d642563de242bc141396a0b2d8bf318288767ea233730d113ac",
+      "en": "Breaks # Armour on Critical Hit",
+      "zh": "暴击时粉碎 # 护甲",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-base-implicit-scalar-clause-identity",
+      "sourceIds": [
+        "https://poe2db.tw/us/Mail_Breaker",
+        "https://poe2db.tw/cn/Mail_Breaker"
+      ],
+      "evidence": [
+        {
+          "baseEnglish": "Mail Breaker",
+          "baseChinese": "拆信刀",
+          "baseIdentity": {
+            "sourceIds": [
+              "poe2db-base-page:Mail_Breaker"
+            ],
+            "slug": "Mail_Breaker",
+            "itemClasses": [
+              "Dagger"
+            ],
+            "images": [
+              "https://cdn.poe2db.tw/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Basetypes/Dagger09.webp"
+            ],
+            "sourceUrls": [
+              "https://poe2db.tw/us/Mail_Breaker",
+              "https://poe2db.tw/cn/Mail_Breaker"
+            ],
+            "sourceSnapshots": [
+              {
+                "file": "pages/Daggers_us.html",
+                "sha256": "556e75bb31a2b0b7f3f38b6107ee7b0d897b27f33b07bca0ce1d051bd8817d0b"
+              },
+              {
+                "file": "pages/Daggers_cn.html",
+                "sha256": "7c607627f5dc2abaefce60cf33f38eb8b58ce3f30c064c07fb33d6fa3cdfa3e7"
+              }
+            ],
+            "verification": "poe2db-cn-us-same-baseitem-page-slug-class-image-exact-english-name"
+          },
+          "englishLineHtml": "Breaks <span class=\"mod-value\">(400<span class=\"ndash\">—</span>500)</span> <a data-keyword=\"Armour\" href=\"Armour\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/7c65e1f3a35da0dbec7a97f88c1f0880d4ef3de7a00825138eb3fb970c68a76c\">Armour</a> on <a data-keyword=\"Critical\" href=\"Critical_Hits\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/3515f0a61f8e37fa4ff32da75203de3ee7244cb59d0aef46c56bbf44656a9171\">Critical Hit</a>",
+          "chineseLineHtml": "<a data-keyword=\"Critical\" href=\"Critical_Hits\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/d5a3167a3602c0d55a7232ab7c9181b6b966be2e2dcb089f0ebe45fb2158e302\">暴击</a>时粉碎 <span class=\"mod-value\">(400<span class=\"ndash\">—</span>500)</span> <a data-keyword=\"Armour\" href=\"Armour\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/35dfc434e5b7ae7bdaa9b378843c07d94d1e017d23be04a6edd174758a600724\">护甲</a>",
+          "englishValues": [
+            "(400-500)"
+          ],
+          "chineseValues": [
+            "(400-500)"
+          ],
+          "englishKeywords": [
+            "Armour",
+            "Critical"
+          ],
+          "chineseKeywords": [
+            "Critical",
+            "Armour"
+          ],
+          "englishCardLines": [
+            "Breaks # Armour on Critical Hit"
+          ],
+          "chineseCardLines": [
+            "暴击时粉碎 # 护甲"
+          ],
+          "capture_map": [
+            1
+          ],
+          "lineReview": "explicit complete source clause with matching keyword and numeric multisets, never positional row alignment"
+        }
+      ]
+    },
+    {
+      "id": "poe2db-base-implicit:d21f8b2f7e04cbdc538e9a0700c8ad1c2531f6b41151ebaeb6f24fb30e7bc568",
+      "en": "Every # seconds, gain a Verisium Infusion",
+      "zh": "每 # 秒获得一个维金灌注",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-base-implicit-scalar-clause-identity",
+      "sourceIds": [
+        "https://poe2db.tw/us/Runemastered_Spiritbone_Crown",
+        "https://poe2db.tw/cn/Runemastered_Spiritbone_Crown"
+      ],
+      "evidence": [
+        {
+          "baseEnglish": "Runemastered Spiritbone Crown",
+          "baseChinese": "符文师匠灵骨王冠",
+          "baseIdentity": {
+            "sourceIds": [
+              "poe2db-base-page:Runemastered_Spiritbone_Crown"
+            ],
+            "slug": "Runemastered_Spiritbone_Crown",
+            "itemClasses": [
+              "Helmet"
+            ],
+            "images": [
+              "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Helmets/Basetypes/HelmetIntStr06.webp"
+            ],
+            "sourceUrls": [
+              "https://poe2db.tw/us/Runemastered_Spiritbone_Crown",
+              "https://poe2db.tw/cn/Runemastered_Spiritbone_Crown"
+            ],
+            "sourceSnapshots": [
+              {
+                "file": "pages/Helmets_us.html",
+                "sha256": "5f6bc94843889b5ac605109bd4c10624328f0b69c5b7af2faa5663132d064ec6"
+              },
+              {
+                "file": "pages/Helmets_cn.html",
+                "sha256": "fa2a4577993d37fae8f497b2b7d838af574d26311c06cda96b2ada1f7a6e6eeb"
+              }
+            ],
+            "verification": "poe2db-cn-us-same-baseitem-page-slug-class-image-exact-english-name"
+          },
+          "englishLineHtml": "Every <span class=\"mod-value\">5</span> seconds, gain a <a data-keyword=\"VerisiumInfusion\" href=\"Verisium_Infusion\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/f5ecdca96382da00e7fa72f0b15c6e926a49526be3f7b6f1c6cba765cc0b1f93\">Verisium Infusion</a>",
+          "chineseLineHtml": "每 <span class=\"mod-value\">5</span> 秒获得一个<a data-keyword=\"VerisiumInfusion\" href=\"Verisium_Infusion\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/f3cdb7611f01a2e8e2802fa0293800afac1fb320c47eb4156704882d301268a7\">维金灌注</a>",
+          "englishValues": [
+            "5"
+          ],
+          "chineseValues": [
+            "5"
+          ],
+          "englishKeywords": [
+            "VerisiumInfusion"
+          ],
+          "chineseKeywords": [
+            "VerisiumInfusion"
+          ],
+          "englishCardLines": [
+            "Every # seconds, gain a Verisium Infusion"
+          ],
+          "chineseCardLines": [
+            "每 # 秒获得一个维金灌注"
+          ],
+          "capture_map": [
+            1
+          ],
+          "lineReview": "explicit complete source clause with matching keyword and numeric multisets, never positional row alignment"
+        }
+      ]
+    },
+    {
+      "id": "poe2db-base-implicit:a64966d15cba3cdc9e7dfac0fdf45abec6c13078f2fe746b1bc6fc8d40fca97f",
+      "en": "Has +# to maximum Energy Shield per player level",
+      "zh": "每有一级玩家等级，+# 能量护盾上限",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-base-implicit-scalar-clause-identity",
+      "sourceIds": [
+        "https://poe2db.tw/us/Fists_of_Stone",
+        "https://poe2db.tw/cn/Fists_of_Stone"
+      ],
+      "evidence": [
+        {
+          "baseEnglish": "Fists of Stone",
+          "baseChinese": "石拳",
+          "baseIdentity": {
+            "sourceIds": [
+              "poe2db-base-page:Fists_of_Stone"
+            ],
+            "slug": "Fists_of_Stone",
+            "itemClasses": [
+              "Gloves"
+            ],
+            "images": [
+              "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt01.webp"
+            ],
+            "sourceUrls": [
+              "https://poe2db.tw/us/Fists_of_Stone",
+              "https://poe2db.tw/cn/Fists_of_Stone"
+            ],
+            "sourceSnapshots": [
+              {
+                "file": "pages/Gloves_us.html",
+                "sha256": "d790a3d71859c172b54186ec22a241a353172359536c1c4dbcd274d7777572b6"
+              },
+              {
+                "file": "pages/Gloves_cn.html",
+                "sha256": "3b35da18465eb543a3e89a67d1c1e9826c08d5ef7afb7fee6478707b2c2ae2bc"
+              }
+            ],
+            "verification": "poe2db-cn-us-same-baseitem-page-slug-class-image-exact-english-name"
+          },
+          "englishLineHtml": "Has <span class=\"mod-value\">+1</span> to maximum <a data-keyword=\"EnergyShield\" href=\"Energy_Shield\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/844d85caec64a66d9a552bae60b3bf8357bbe1dc43f348b0e329a824c638d8b5\">Energy Shield</a> per player level",
+          "chineseLineHtml": "每有一级玩家等级，<span class=\"mod-value\">+1</span> <a data-keyword=\"EnergyShield\" href=\"Energy_Shield\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/1bd8c6b2d2f2bdee61c4f69137579b960ef2d15f8c34464bf48cd8017b853271\">能量护盾</a>上限",
+          "englishValues": [
+            "1"
+          ],
+          "chineseValues": [
+            "1"
+          ],
+          "englishKeywords": [
+            "EnergyShield"
+          ],
+          "chineseKeywords": [
+            "EnergyShield"
+          ],
+          "englishCardLines": [
+            "local hand wraps player level to use [0]",
+            "Has +# to Evasion Rating per player level",
+            "Has +# to maximum Energy Shield per player level",
+            "local level requirement override [1]"
+          ],
+          "chineseCardLines": [
+            "local hand wraps player level to use [0]",
+            "每有一级玩家等级，+# 闪避值",
+            "每有一级玩家等级，+# 能量护盾上限",
+            "local level requirement override [1]"
+          ],
+          "capture_map": [
+            1
+          ],
+          "lineReview": "explicit complete source clause with matching keyword and numeric multisets, never positional row alignment"
+        }
+      ]
+    },
+    {
+      "id": "poe2db-base-implicit:30a529e9a8617640aabe850e345e247e6fbbdda05e74de08d971fc4b1f385407",
+      "en": "Has +# to maximum Runic Ward per player level",
+      "zh": "每有一级玩家等级，+# 符文结界上限",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-base-implicit-scalar-clause-identity",
+      "sourceIds": [
+        "https://poe2db.tw/us/Runeforged_Fists_of_Stone",
+        "https://poe2db.tw/cn/Runeforged_Fists_of_Stone"
+      ],
+      "evidence": [
+        {
+          "baseEnglish": "Runeforged Fists of Stone",
+          "baseChinese": "符文石拳",
+          "baseIdentity": {
+            "sourceIds": [
+              "poe2db-base-page:Runeforged_Fists_of_Stone"
+            ],
+            "slug": "Runeforged_Fists_of_Stone",
+            "itemClasses": [
+              "Gloves"
+            ],
+            "images": [
+              "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt01.webp"
+            ],
+            "sourceUrls": [
+              "https://poe2db.tw/us/Runeforged_Fists_of_Stone",
+              "https://poe2db.tw/cn/Runeforged_Fists_of_Stone"
+            ],
+            "sourceSnapshots": [
+              {
+                "file": "pages/Gloves_us.html",
+                "sha256": "d790a3d71859c172b54186ec22a241a353172359536c1c4dbcd274d7777572b6"
+              },
+              {
+                "file": "pages/Gloves_cn.html",
+                "sha256": "3b35da18465eb543a3e89a67d1c1e9826c08d5ef7afb7fee6478707b2c2ae2bc"
+              }
+            ],
+            "verification": "poe2db-cn-us-same-baseitem-page-slug-class-image-exact-english-name"
+          },
+          "englishLineHtml": "Has <span class=\"mod-value\">+1</span> to maximum <a data-keyword=\"Ward\" href=\"Runic_Ward\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/db2cf117e66d9ae26738d24392a8003d2eccca51ba99bb7e917e48192229ffbb\">Runic Ward</a> per player level",
+          "chineseLineHtml": "每有一级玩家等级，<span class=\"mod-value\">+1</span> <a data-keyword=\"Ward\" href=\"Runic_Ward\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/6eaf6d540460378e48a8cf82a110fee03a3c1fff03d57094d4afeb743bfaa017\">符文结界</a>上限",
+          "englishValues": [
+            "1"
+          ],
+          "chineseValues": [
+            "1"
+          ],
+          "englishKeywords": [
+            "Ward"
+          ],
+          "chineseKeywords": [
+            "Ward"
+          ],
+          "englishCardLines": [
+            "local hand wraps player level to use [0]",
+            "Has +# to Evasion Rating per player level",
+            "Has +# to maximum Energy Shield per player level",
+            "Has +# to maximum Runic Ward per player level",
+            "local level requirement override [1]"
+          ],
+          "chineseCardLines": [
+            "local hand wraps player level to use [0]",
+            "每有一级玩家等级，+# 闪避值",
+            "每有一级玩家等级，+# 能量护盾上限",
+            "每有一级玩家等级，+# 符文结界上限",
+            "local level requirement override [1]"
+          ],
+          "capture_map": [
+            1
+          ],
+          "lineReview": "explicit complete source clause with matching keyword and numeric multisets, never positional row alignment"
+        }
+      ]
+    },
+    {
+      "id": "poe2db-base-implicit:9518042e209530ccfb5d9842e00cbbc0f61c7ab3a4644be4aaf0fc1db67d7b09",
+      "en": "Has +# to Evasion Rating per player level",
+      "zh": "每有一级玩家等级，+# 闪避值",
+      "capture_map": [
+        1
+      ],
+      "verification": "poe2db-cn-us-reviewed-base-implicit-scalar-clause-identity",
+      "sourceIds": [
+        "https://poe2db.tw/us/Fists_of_Stone",
+        "https://poe2db.tw/cn/Fists_of_Stone"
+      ],
+      "evidence": [
+        {
+          "baseEnglish": "Fists of Stone",
+          "baseChinese": "石拳",
+          "baseIdentity": {
+            "sourceIds": [
+              "poe2db-base-page:Fists_of_Stone"
+            ],
+            "slug": "Fists_of_Stone",
+            "itemClasses": [
+              "Gloves"
+            ],
+            "images": [
+              "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt01.webp"
+            ],
+            "sourceUrls": [
+              "https://poe2db.tw/us/Fists_of_Stone",
+              "https://poe2db.tw/cn/Fists_of_Stone"
+            ],
+            "sourceSnapshots": [
+              {
+                "file": "pages/Gloves_us.html",
+                "sha256": "d790a3d71859c172b54186ec22a241a353172359536c1c4dbcd274d7777572b6"
+              },
+              {
+                "file": "pages/Gloves_cn.html",
+                "sha256": "3b35da18465eb543a3e89a67d1c1e9826c08d5ef7afb7fee6478707b2c2ae2bc"
+              }
+            ],
+            "verification": "poe2db-cn-us-same-baseitem-page-slug-class-image-exact-english-name"
+          },
+          "englishLineHtml": "Has <span class=\"mod-value\">+3</span> to <a data-keyword=\"Evasion\" href=\"Evasion\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/74ffe815351808e79fdd630ac8728205b4dbfe6fd31a230cb87aa857d0e76d38\">Evasion</a> Rating per player level",
+          "chineseLineHtml": "每有一级玩家等级，<span class=\"mod-value\">+3</span> <a data-keyword=\"Evasion\" href=\"Evasion\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/c2a84792db3776b996a8262b405bc57fb0898b0ceb829dfe20bd5aa7fd334cc8\">闪避</a>值",
+          "englishValues": [
+            "3"
+          ],
+          "chineseValues": [
+            "3"
+          ],
+          "englishKeywords": [
+            "Evasion"
+          ],
+          "chineseKeywords": [
+            "Evasion"
+          ],
+          "englishCardLines": [
+            "local hand wraps player level to use [0]",
+            "Has +# to Evasion Rating per player level",
+            "Has +# to maximum Energy Shield per player level",
+            "local level requirement override [1]"
+          ],
+          "chineseCardLines": [
+            "local hand wraps player level to use [0]",
+            "每有一级玩家等级，+# 闪避值",
+            "每有一级玩家等级，+# 能量护盾上限",
+            "local level requirement override [1]"
+          ],
+          "capture_map": [
+            1
+          ],
+          "lineReview": "explicit complete source clause with matching keyword and numeric multisets, never positional row alignment"
+        }
+      ]
+    },
+    {
+      "id": "poe2db-base-implicit:8f9472c048f35324586d628835de508811ef4038c0a52fcad6b247c50a739684",
+      "en": "Has no Accuracy Penalty from Range",
+      "zh": "没有远距离命中惩罚",
+      "capture_map": [],
+      "verification": "poe2db-cn-us-reviewed-base-implicit-scalar-clause-identity",
+      "sourceIds": [
+        "https://poe2db.tw/us/Extended_Cleaver",
+        "https://poe2db.tw/cn/Extended_Cleaver"
+      ],
+      "evidence": [
+        {
+          "baseEnglish": "Extended Cleaver",
+          "baseChinese": "长柄战斧",
+          "baseIdentity": {
+            "sourceIds": [
+              "poe2db-base-page:Extended_Cleaver"
+            ],
+            "slug": "Extended_Cleaver",
+            "itemClasses": [
+              "OneHandAxe"
+            ],
+            "images": [
+              "https://cdn.poe2db.tw/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/Basetypes/1HAxe04.webp"
+            ],
+            "sourceUrls": [
+              "https://poe2db.tw/us/Extended_Cleaver",
+              "https://poe2db.tw/cn/Extended_Cleaver"
+            ],
+            "sourceSnapshots": [
+              {
+                "file": "pages/One_Hand_Axes_us.html",
+                "sha256": "7853d36b1b977e8a36085f872c7ddfc17a6b673938f5d3534e63f6f1d3952fc9"
+              },
+              {
+                "file": "pages/One_Hand_Axes_cn.html",
+                "sha256": "020404e304aff74f5ee339a4308095441e12c4dc4708b95cb8acdc6ec0cf3ee0"
+              }
+            ],
+            "verification": "poe2db-cn-us-same-baseitem-page-slug-class-image-exact-english-name"
+          },
+          "englishLineHtml": "Has no <a data-keyword=\"Accuracy\" href=\"Accuracy\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/4a439d13631e43c7f47aab345a7e6b64877fb0209f2c42901d14cd9d9f36da1c\">Accuracy</a> Penalty from Range",
+          "chineseLineHtml": "没有远距离<a data-keyword=\"Accuracy\" href=\"Accuracy\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/844a2563785b03129d9e700f58628dc7ed1cf3971e55e7e79f4cf68db11d496a\">命中</a>惩罚",
+          "englishValues": [],
+          "chineseValues": [],
+          "englishKeywords": [
+            "Accuracy"
+          ],
+          "chineseKeywords": [
+            "Accuracy"
+          ],
+          "englishCardLines": [
+            "Has no Accuracy Penalty from Range"
+          ],
+          "chineseCardLines": [
+            "没有远距离命中惩罚"
+          ],
+          "capture_map": [],
+          "lineReview": "explicit complete source clause with matching keyword and numeric multisets, never positional row alignment"
+        }
+      ]
+    },
+    {
+      "id": "poe2db-base-implicit:851a27f500b25c02fbc13421d1304e05e75abe5d20dfba54b289b2328a19d588",
+      "en": "Unblockable",
+      "zh": "无法被格挡",
+      "capture_map": [],
+      "verification": "poe2db-cn-us-reviewed-base-implicit-scalar-clause-identity",
+      "sourceIds": [
+        "https://poe2db.tw/us/Stone_Flail",
+        "https://poe2db.tw/cn/Stone_Flail"
+      ],
+      "evidence": [
+        {
+          "baseEnglish": "Stone Flail",
+          "baseChinese": "巨石连枷",
+          "baseIdentity": {
+            "sourceIds": [
+              "poe2db-base-page:Stone_Flail"
+            ],
+            "slug": "Stone_Flail",
+            "itemClasses": [
+              "Flail"
+            ],
+            "images": [
+              "https://cdn.poe2db.tw/image/Art/2DItems/Weapons/OneHandWeapons/Flails/Flail07.webp"
+            ],
+            "sourceUrls": [
+              "https://poe2db.tw/us/Stone_Flail",
+              "https://poe2db.tw/cn/Stone_Flail"
+            ],
+            "sourceSnapshots": [
+              {
+                "file": "pages/Flails_us.html",
+                "sha256": "ad02f4c192ad4005164595a541b7f793accdc1d39809a9adadb1dfbecb278c3c"
+              },
+              {
+                "file": "pages/Flails_cn.html",
+                "sha256": "9e06c04e889f064170d515de8bf10c96f95d6269291e2701dab496c795200265"
+              }
+            ],
+            "verification": "poe2db-cn-us-same-baseitem-page-slug-class-image-exact-english-name"
+          },
+          "englishLineHtml": "Unblockable",
+          "chineseLineHtml": "无法被格挡",
+          "englishValues": [],
+          "chineseValues": [],
+          "englishKeywords": [],
+          "chineseKeywords": [],
+          "englishCardLines": [
+            "Unblockable"
+          ],
+          "chineseCardLines": [
+            "无法被格挡"
+          ],
+          "capture_map": [],
+          "lineReview": "explicit complete source clause with matching keyword and numeric multisets, never positional row alignment"
+        }
+      ]
+    },
+    {
+      "id": "poe2db-base-implicit:47ae52ec148677c43b681e9a36fb0fa2681807deb47ffb6f48504f4b9e0b4c32",
+      "en": "Used when you become Cursed",
+      "zh": "被诅咒时自动使用",
+      "capture_map": [],
+      "verification": "poe2db-cn-us-reviewed-base-implicit-scalar-clause-identity",
+      "sourceIds": [
+        "https://poe2db.tw/us/Cleansing_Charm",
+        "https://poe2db.tw/cn/Cleansing_Charm"
+      ],
+      "evidence": [
+        {
+          "baseEnglish": "Cleansing Charm",
+          "baseChinese": "净化咒符",
+          "baseIdentity": {
+            "sourceIds": [
+              "poe2db-base-page:Cleansing_Charm"
+            ],
+            "slug": "Cleansing_Charm",
+            "itemClasses": [
+              "UtilityFlask"
+            ],
+            "images": [
+              "https://cdn.poe2db.tw/image/Art/2DItems/Charms/Basetypes/AmethystCharm.webp"
+            ],
+            "sourceUrls": [
+              "https://poe2db.tw/us/Cleansing_Charm",
+              "https://poe2db.tw/cn/Cleansing_Charm"
+            ],
+            "sourceSnapshots": [
+              {
+                "file": "pages/Charms_us.html",
+                "sha256": "75b4ae0ef7d71d794c170c21c2f97535a6d3e63e081beefe698d949f1c3fead7"
+              },
+              {
+                "file": "pages/Charms_cn.html",
+                "sha256": "c076c5e1bce2c4cc845d8e237c38e1a0fd9b50f70ffdc9087e3f0865f18c9fdd"
+              }
+            ],
+            "verification": "poe2db-cn-us-same-baseitem-page-slug-class-image-exact-english-name"
+          },
+          "englishLineHtml": "Used when you become <a data-keyword=\"Curse\" href=\"Curses\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_KeywordPopups_hover/97160559c71e27b47ecc2ac9aab94c0f29353084979269e128927171380c7020\">Cursed</a>",
+          "chineseLineHtml": "被<a data-keyword=\"Curse\" href=\"Curses\" class=\"KeywordPopups\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_KeywordPopups_hover/81adc038e134532e59935232d77b7237839aedead8c52440ead782850041e0a6\">诅咒</a>时自动使用",
+          "englishValues": [],
+          "chineseValues": [],
+          "englishKeywords": [
+            "Curse"
+          ],
+          "chineseKeywords": [
+            "Curse"
+          ],
+          "englishCardLines": [
+            "Used when you become Cursed"
+          ],
+          "chineseCardLines": [
+            "被诅咒时自动使用"
+          ],
+          "capture_map": [],
+          "lineReview": "explicit complete source clause with matching keyword and numeric multisets, never positional row alignment"
+        }
+      ]
+    }
+  ]
+}
