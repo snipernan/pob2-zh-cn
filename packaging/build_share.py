@@ -5,11 +5,13 @@ ROOT=Path(__file__).resolve().parent.parent
 PLUGIN=ROOT
 sys.path.insert(0,str(PLUGIN))
 import install
+VERSION=install.plugin_version(PLUGIN/'payload')
+assert VERSION and all(part.isdigit() for part in VERSION.split('.'))
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--app',type=Path,required=True,help='Original native Apple Silicon PoB2 app')
 parser.add_argument('--core',type=Path,required=True,help='Verified 0.23.1 runtime src directory')
 parser.add_argument('--launcher-source',type=Path,required=True,help='Compatible upstream macos/launcher.cpp')
-parser.add_argument('--output-dir',type=Path,default=ROOT/'build/share-0.6.2')
+parser.add_argument('--output-dir',type=Path,default=ROOT/f'build/share-{VERSION}')
 parser.add_argument('--dmg',action='store_true',help='Also produce and verify a compressed DMG')
 args=parser.parse_args()
 if sys.platform!='darwin':parser.error('Mac app packaging requires macOS and Xcode command-line tools')
@@ -26,7 +28,7 @@ if BUILD == ROOT or ROOT.is_relative_to(BUILD) or BUILD.is_relative_to(ORIGINAL)
 STAGE=BUILD/'image'
 APP=STAGE/'PoB2 简体中文.app'
 SUPPORT='PathOfBuildingMacPoE2Chinese'
-BUNDLE_VERSION='pob2-0.23.1-zh-0.6.2-public-1'
+BUNDLE_VERSION=f'pob2-0.23.1-zh-{VERSION}-public-1'
 STAGE.mkdir(parents=True,exist_ok=True)
 if APP.exists():
     raise SystemExit('The staging app already exists; use the existing build or explicitly archive it before rebuilding.')
@@ -70,11 +72,11 @@ entry=bootstrap.replace('@PAYLOAD_FILES@','{'+','.join(json.dumps(n) for n in ma
 launcher=APP/'Contents/MacOS/Path of Building - PoE2'
 subprocess.run(['clang++','-std=c++17','-O2','-arch','arm64','-mmacosx-version-min=11.0',
     '-DPOB_APP_SUPPORT_DIR="'+SUPPORT+'"','-DPOB_BUNDLE_VERSION_STRING="'+BUNDLE_VERSION+'"',
-    '-DPOB_MAC_VERSION_STRING="zh-v0.6.2"',str(launcher_source),'-o',str(launcher)],check=True)
+    '-DPOB_MAC_VERSION_STRING="zh-v'+VERSION+'"',str(launcher_source),'-o',str(launcher)],check=True)
 info=APP/'Contents/Info.plist'
 with info.open('rb') as f:pl=plistlib.load(f)
 pl.update(CFBundleIdentifier='local.pob2.chinese',CFBundleName='PoB2 简体中文',CFBundleDisplayName='PoB2 简体中文',
-    CFBundleShortVersionString='0.6.2',CFBundleVersion='60201',LSMinimumSystemVersion='11.0')
+    CFBundleShortVersionString=VERSION,CFBundleVersion=str(sum(int(v)*w for v,w in zip(VERSION.split('.'),(1000000,10000,100)))+1),LSMinimumSystemVersion='11.0')
 with info.open('wb') as f:plistlib.dump(pl,f)
 # No personal settings, source research caches or hardcoded local account path.
 for p in (res/'src').rglob('*'):
@@ -87,11 +89,11 @@ notices=res/'Chinese-Notices';notices.mkdir()
 shutil.copyfile(res/'src/LICENSE.md',notices/'UPSTREAM-LICENSE.md')
 shutil.copyfile(launcher_source,notices/'launcher.cpp')
 shutil.copyfile(ROOT/'packaging/bundle_bootstrap.lua.in',notices/'bundle_bootstrap.lua.in')
-(notices/'README.txt').write_text('''PoB2 简体中文个人分享版，非官方发行版。
+(notices/'README.txt').write_text(f'''PoB2 简体中文个人分享版，非官方发行版。
 核心：PathOfBuildingCommunity/PathOfBuilding-PoE2 0.23.1
 Mac 移植：https://github.com/stevschmid/PathOfBuilding-Mac
 引擎：https://github.com/stevschmid/PathOfBuilding-SimpleGraphic
-汉化 v0.6.2：中文显示、搜索及输入适配；不改变核心计算。
+汉化 v{VERSION}：中文显示、搜索及输入适配；不改变核心计算。
 游戏文字来源：腾讯国服公开交易目录和词缀 API；https://poe2db.tw/cn/ 。
 沿用已验证国服译文；部分 UI 指标与旧版文字经过人工校对。
 PoE2DB Wiki 内容按其注明的 CC BY-NC-SA 3.0 等适用条款；其他游戏文本权利仍属原权利人。
@@ -106,7 +108,7 @@ for p in APP.rglob('*'):
 (BUILD/'core-file-manifest.json').write_text(json.dumps({'coreVersion':'0.23.1','files':files},indent=2)+'\n')
 print('Built',APP,'with',len(files),'verified core files and',len(managed),'Chinese resources')
 
-shutil.copyfile(ROOT/'packaging/使用说明.txt',STAGE/'使用说明.txt')
+(STAGE/'使用说明.txt').write_text((ROOT/'packaging/使用说明.txt').read_text().replace('0.6.2',VERSION))
 shutil.copyfile(ROOT/'THIRD_PARTY_NOTICES.md',notices/'THIRD_PARTY_NOTICES.md')
 shutil.copyfile(ROOT/'LICENSE',notices/'PLUGIN-LICENSE.txt')
 for name in ('docs', 'fonts', 'licenses'):(notices/name).mkdir()
@@ -120,8 +122,8 @@ subprocess.run(['codesign','--force','--sign','-','--timestamp=none','--options'
     '--entitlements',str(ROOT/'packaging/entitlements.plist'),str(APP)],check=True)
 subprocess.run(['codesign','--verify','--deep','--strict',str(APP)],check=True)
 if args.dmg:
-    image=BUILD/'PoB2-0.23.1-zh-CN-0.6.2-AppleSilicon.dmg'
-    subprocess.run(['hdiutil','create','-volname','PoB2 简体中文 0.6.2','-srcfolder',str(STAGE),
+    image=BUILD/f'PoB2-0.23.1-zh-CN-{VERSION}-AppleSilicon.dmg'
+    subprocess.run(['hdiutil','create','-volname',f'PoB2 简体中文 {VERSION}','-srcfolder',str(STAGE),
         '-format','UDZO','-imagekey','zlib-level=9',str(image)],check=True)
     subprocess.run(['hdiutil','verify',str(image)],check=True)
     image.with_suffix('.dmg.sha256').write_text(hashlib.sha256(image.read_bytes()).hexdigest()+'  '+image.name+'\n')

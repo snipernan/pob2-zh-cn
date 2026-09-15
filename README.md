@@ -4,7 +4,7 @@
 
 为 Apple Silicon Mac 原生版 **Path of Building 2** 提供中文显示、检索及输入修复。优先使用已核验的国服术语，缺失内容参照流亡 2 编年史；未核验的文字保留英文。
 
-当前插件 **v0.6.2**，已验证核心 **0.23.1**、天赋树 **0.5**。由社区维护，围绕原生 Mac 版 PoB2 的使用体验持续完善。
+当前独立插件 **v0.6.3**，已验证核心 **0.23.1**、天赋树 **0.5**。由社区维护，围绕原生 Mac 版 PoB2 的使用体验持续完善。
 
 ## 功能
 
@@ -70,7 +70,7 @@ python3 install.py --status
 python3 install.py --target "/path/to/PathOfBuildingMacPoE2"
 ```
 
-重复安装复用同一加载入口，自动备份入口并校验资源。核心更新后如需恢复汉化，可重新安装并重启；卸载使用 `python3 install.py --uninstall`。
+重复安装复用同一加载入口，自动备份入口并校验资源。**v0.6.3 会在应用内常规核心更新完成后自动恢复汉化入口**，保留更新后的核心文件和语言偏好。安装或升级插件后，先重启一次 PoB2，让新版更新适配生效。整包替换或加载接口变动后，可按状态检查结果重新安装；卸载使用 `python3 install.py --uninstall`。
 
 两种方式均可使用 **F10 / Fn + F10** 切换中英文。目录、自定义安装和常见问题详见[安装说明](docs/INSTALL.md)。
 
@@ -80,6 +80,7 @@ python3 install.py --target "/path/to/PathOfBuildingMacPoE2"
 python3 build_assets.py
 python3 scripts/check_repository.py
 python3 test_install.py
+python3 test_update_guard.py
 python3 verify_tree_overlay.py
 python3 run_lua.py tests.lua
 python3 run_lua.py tests_game_text.lua

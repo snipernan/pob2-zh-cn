@@ -17,8 +17,9 @@ local function lookup(s)
 end
 local atlas = dofile(root .. '/font.lua')
 local original = { draw = DrawString, width = DrawStringWidth, cursor = DrawStringCursorIndex }
-local P = { enabled = true, version = '0.6.2', suppressed = 0, game = game, revision = 0 }
+local P = { enabled = true, version = '0.6.3', suppressed = 0, game = game, revision = 0 }
 P.input = dofile(root .. '/mac_input.lua')
+P.updates = assert(loadfile(root .. '/update_guard.lua'))(root)
 local skillAdapter = assert(loadfile(root .. '/skills_cn.lua'))(P, game)
 P.skills = skillAdapter
 local treeAdapter = assert(loadfile(root .. '/tree_cn.lua'))(P, game)
@@ -473,7 +474,9 @@ local function protectClasses()
 end
 local loadModule = LoadModule
 LoadModule = function(name, ...)
+    local updateSnapshot = name == 'UpdateApply' and P.updates.capture()
     local results = pack(loadModule(name, ...))
+    if name == 'UpdateApply' then P.updates.restore(updateSnapshot) end
     protectClasses()
     if name == 'Modules/Build' then
         protectBuild(results[1])

@@ -14,6 +14,7 @@ python3 build_assets.py
 python3 verify_tree_overlay.py
 python3 scripts/check_repository.py
 python3 test_install.py
+python3 test_update_guard.py
 python3 run_lua.py tests.lua
 python3 run_lua.py tests_game_text.lua
 ```
@@ -57,3 +58,15 @@ python3 scripts/test_integration.py
 ## 结构约定
 
 入口与已有 Lua 测试保持根目录布局，避免改变安装资源相对路径。运行代码在 `payload/`，数据来自审核 JSON，构建和发布工具在 `scripts/` 与 `packaging/`。`installation.json`、备份、测试输出和分发文件始终被 Git 忽略。
+
+## 更新入口验证
+
+`test_update_guard.py` 在临时目录安装插件，模拟连续更新与错误场景，然后用新的 Lua 进程验证入口加载，最后执行卸载。
+
+本地指定核心时使用它的真实 `UpdateApply.lua`：
+
+```sh
+python3 test_update_guard.py --core "$POB2_CORE_SRC"
+```
+
+CI 使用最小更新契约模拟文件替换；实际核心更新脚本在本地原生库环境另行验证。`update_guard.lua` 每次更新前只采集当前已安装的独立入口，更新成功后校验新文件并原子补回入口。整包启动入口采用原有独立加载方式。

@@ -115,6 +115,8 @@ def validate_payload(payload, names=None):
         required.add('tree_cn.lua')
     if 'init.lua' in files and 'equipment_cn.lua' in read_text(files['init.lua']):
         required.add('equipment_cn.lua')
+    if 'init.lua' in files and 'update_guard.lua' in read_text(files['init.lua']):
+        required.add('update_guard.lua')
     if 'init.lua' in files and 'mac_input.lua' in read_text(files['init.lua']):
         required.add('mac_input.lua')
     if 'init.lua' in files and 'stat_compare_cn.lua' in read_text(files['init.lua']):
@@ -355,7 +357,7 @@ def install(target, uninstall=False, *, payload_root=None, metadata_root=None):
             raise
     print(f'汉化已安装到 {destination}，入口位于 src/Launch.lua。')
     print('保存当前配装后正常退出并重新打开 PoB2，即可生效。F10 切换中英文。')
-    print('核心更新可能覆盖汉化入口；更新后请运行“检查汉化状态.command”。')
+    print('重启加载新版插件后，常规核心更新会自动恢复汉化入口；更新后可运行“检查汉化状态.command”。')
 
 
 if __name__ == '__main__':

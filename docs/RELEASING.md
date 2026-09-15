@@ -31,7 +31,7 @@ git push -u origin main
 python3 scripts/package_plugin.py
 ```
 
-输出 `dist/pob2-zh-cn-plugin-0.6.2.zip` 和 SHA-256 文件。ZIP 按明确清单收录安装资源，作为 GitHub Releases 附件发布；源码通过 Git 提交。
+输出 `dist/pob2-zh-cn-plugin-0.6.3.zip` 和 SHA-256 文件。ZIP 按明确清单收录安装资源，作为 GitHub Releases 附件发布；源码通过 Git 提交。
 
 ## 重建完整 Mac DMG
 
@@ -42,13 +42,13 @@ python3 packaging/build_share.py \
   --app "/Applications/Path of Building - PoE2.app" \
   --core "$HOME/Library/Application Support/PathOfBuildingMacPoE2/src" \
   --launcher-source "/path/to/PathOfBuilding-Mac/macos/launcher.cpp" \
-  --output-dir "$PWD/build/share-0.6.2" \
+  --output-dir "$PWD/build/share-0.6.3" \
   --dmg
 ```
 
 脚本拒绝覆盖已存在的 staging App。它验证核心清单与文件摘要、去除个人安装入口、复制 Noto 字库、生成独立支持目录的启动器、保留来源、签名并校验映像。字库重建是开发步骤，日常打包直接使用已提交图集。
 
-此打包器沿用已经验证的 0.23.1 / 0.6.2 分享方案；更新版本时须同时检查编译器限制、启动器宏、bundle version、核心 manifest 和插件版本。原生 ABI 或核心改变后，须完成相应兼容性验证。
+已发布完整 DMG 为 0.23.1 / 0.6.2。打包器从当前插件读取版本，输出相应版本的新包；更新版本时须同时检查编译器限制、启动器宏、bundle version、核心 manifest 和插件版本。原生 ABI 或核心改变后，须完成相应兼容性验证。
 
 默认使用 **ad-hoc 签名**。持有 Developer ID 的维护者可进一步完成签名、Apple 公证和 stapling，并在发行说明中注明实际完成的流程。完整发行包保留上游各组件许可与对应源码获取方式；原创代码、上游二进制、第三方数据和游戏资产分别遵循各自许可。
 

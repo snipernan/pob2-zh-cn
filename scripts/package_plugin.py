@@ -9,7 +9,8 @@ sys.path.insert(0, str(ROOT))
 import install
 
 install.validate_payload(ROOT / 'payload')
-version = '0.6.2'
+version = install.plugin_version(ROOT / 'payload')
+assert version
 output = ROOT / 'dist' / f'pob2-zh-cn-plugin-{version}.zip'
 output.parent.mkdir(exist_ok=True)
 files = [ROOT / n for n in ('install.py', 'LICENSE', 'THIRD_PARTY_NOTICES.md', 'CHANGELOG.md',
@@ -22,7 +23,7 @@ with zipfile.ZipFile(output, 'w', zipfile.ZIP_DEFLATED) as archive:
     for path in files:
         assert path.is_file() and not path.is_symlink(), path
         archive.write(path, prefix + path.relative_to(ROOT).as_posix())
-    archive.writestr(prefix + 'README.md', '''# PoB2 简体中文插件 0.6.2
+    archive.writestr(prefix + 'README.md', f'''# PoB2 简体中文插件 {version}
 
 适用于已验证的 Apple Silicon Mac 原生 PoB2 0.23.1。
 先启动原版一次，保存配装并退出，再在本目录执行 `python3 install.py`。

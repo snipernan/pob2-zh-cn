@@ -21,6 +21,7 @@ jobs:
       - name: Installer and translation tests
         run: |
           python3 test_install.py
+          python3 test_update_guard.py
           python3 verify_tree_overlay.py
           python3 run_lua.py tests.lua
           python3 run_lua.py tests_game_text.lua

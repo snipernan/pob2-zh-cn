@@ -57,6 +57,15 @@ class InstallerTests(unittest.TestCase):
         self.capture.__enter__()
         self.addCleanup(self.capture.__exit__, None, None, None)
 
+    def test_missing_update_guard_preserves_installation(self):
+        self.install()
+        before = snapshot(self.target)
+        with (self.payload / 'init.lua').open('a') as f:
+            f.write("\n-- update_guard.lua\n")
+        with self.assertRaises(RuntimeError):
+            self.install()
+        self.assertEqual(snapshot(self.target), before)
+
     def install(self, **kwargs):
         return installer.install(self.target, **self.kw, **kwargs)
 
