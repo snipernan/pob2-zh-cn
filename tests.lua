@@ -134,6 +134,15 @@ calls={}; DrawString(0,0,'LEFT',16,'VAR','^7' .. coloredSentence .. '\nLife')
 assert(color[1] == '^xE05030', 'Translated sentence preserves final draw color across lines')
 local dict = dofile(root .. '/payload/dictionary.lua')
 local atlas = dofile(root .. '/payload/font.lua')
+-- User-entered names also need glyphs, independently of translation vocabulary.
+local name = '周年庆门徒'
+for ch in name:gmatch('[\194-\244][\128-\191]+') do assert(atlas.glyphs[ch], ch) end
+edit.buf, edit.prompt = name, ''
+calls = {}; local beforeImages = images
+edit:Draw()
+assert(images - beforeImages == 5 and edit.buf == name, 'Render all five name glyphs without altering input')
+for _, call in ipairs(calls) do assert(not call.text or call.text == '', 'Chinese name reached the native missing-glyph renderer') end
+assert(DrawStringCursorIndex(16, 'VAR', name, 1000, 0) == #name + 1)
 local n=0
 for en, zh in pairs(dict) do
     n=n+1

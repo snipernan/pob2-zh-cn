@@ -31,7 +31,7 @@ git push -u origin main
 python3 scripts/package_plugin.py
 ```
 
-输出 `dist/pob2-zh-cn-plugin-0.6.3.zip` 和 SHA-256 文件。ZIP 按明确清单收录安装资源，作为 GitHub Releases 附件发布；源码通过 Git 提交。
+输出 `dist/pob2-zh-cn-plugin-0.6.4.zip` 和 SHA-256 文件。ZIP 按明确清单收录安装资源，作为 GitHub Releases 附件发布；源码通过 Git 提交。
 
 ## 重建完整 Mac DMG
 
@@ -42,7 +42,7 @@ python3 packaging/build_share.py \
   --app "/Applications/Path of Building - PoE2.app" \
   --core "$HOME/Library/Application Support/PathOfBuildingMacPoE2/src" \
   --launcher-source "/path/to/PathOfBuilding-Mac/macos/launcher.cpp" \
-  --output-dir "$PWD/build/share-0.6.3" \
+  --output-dir "$PWD/build/share-0.6.4" \
   --dmg
 ```
 

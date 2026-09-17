@@ -25,6 +25,7 @@ jobs:
           python3 verify_tree_overlay.py
           python3 run_lua.py tests.lua
           python3 run_lua.py tests_game_text.lua
+          python3 run_lua.py tests_import_compat.lua
       - name: Build installable ZIP
         run: python3 scripts/package_plugin.py
       - uses: actions/upload-artifact@v4

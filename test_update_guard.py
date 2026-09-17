@@ -65,13 +65,13 @@ function ConPrintf(...) error(string.format(...)) end
 common={classes={}}
 local root=assert(os.getenv('POB2_GUARD_FIXTURE'))
 dofile(root..'/src/Launch.lua')
-assert(PoB2Chinese.version=='0.6.3' and not PoB2Chinese.enabled)
+assert(PoB2Chinese.version=='PLUGIN_VERSION' and not PoB2Chinese.enabled)
 assert(PoB2Chinese.translate('Save')=='Save')
 PoB2Chinese.enabled=true
 assert(PoB2Chinese.translate('Save')=='保存')
 assert(PoB2Chinese.callbackLaunch==launch)
 print('PASS restart: restored entry loads Chinese callbacks and preserves saved preference')
-''')
+'''.replace('PLUGIN_VERSION', install.plugin_version(ROOT / 'payload')))
     run(restart)
     with contextlib.redirect_stdout(io.StringIO()):
         install.install(target, True, metadata_root=metadata)

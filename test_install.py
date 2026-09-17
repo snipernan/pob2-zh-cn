@@ -83,7 +83,7 @@ class InstallerTests(unittest.TestCase):
     def test_missing_tree_translation_modules_preserve_working_install(self):
         self.install()
         before = snapshot(self.target)
-        for module in ('tree_cn', 'tooltip_cn', 'equipment_cn', 'mac_input', 'stat_compare_cn'):
+        for module in ('tree_cn', 'tooltip_cn', 'equipment_cn', 'mac_input', 'stat_compare_cn', 'import_compat'):
             with self.subTest(module=module):
                 (self.payload / 'init.lua').write_text(f"local tree = assert(loadfile(root .. '/{module}.lua'))(P, game)")
                 with self.assertRaisesRegex(RuntimeError, module):

@@ -9,6 +9,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 import install
+from build_assets import common_han
 
 
 def main():
@@ -16,6 +17,7 @@ def main():
     charset = set((ROOT / 'charset.txt').read_text())
     glyphs = set(re.findall(r'^\["([^"\\]+)"\]', (ROOT / 'payload/font.lua').read_text(), re.M))
     assert charset <= glyphs, 'Rebuild Noto atlas for added characters'
+    assert common_han() <= glyphs, 'Atlas must cover all 6,763 common Han characters'
     font = ROOT / 'fonts/NotoSansCJKsc-Regular.otf'
     font_info = json.loads((ROOT / 'fonts/source.json').read_text())
     assert hashlib.sha256(font.read_bytes()).hexdigest() == font_info['sha256']

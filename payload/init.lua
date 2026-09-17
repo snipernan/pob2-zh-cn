@@ -1,4 +1,4 @@
--- PoB2 Mac zh-CN display plugin. English data/IDs/calculations remain intact.
+-- PoB2 Mac zh-CN plugin. Preserve source data; delegate compatible imports to the native parser.
 local root = ...
 if _G.PoB2Chinese then return _G.PoB2Chinese end
 local dictionary = dofile(root .. '/dictionary.lua')
@@ -17,7 +17,8 @@ local function lookup(s)
 end
 local atlas = dofile(root .. '/font.lua')
 local original = { draw = DrawString, width = DrawStringWidth, cursor = DrawStringCursorIndex }
-local P = { enabled = true, version = '0.6.3', suppressed = 0, game = game, revision = 0 }
+local P = { enabled = true, version = '0.6.4', suppressed = 0, game = game, revision = 0 }
+P.importCompat = dofile(root .. '/import_compat.lua')
 P.input = dofile(root .. '/mac_input.lua')
 P.updates = assert(loadfile(root .. '/update_guard.lua'))(root)
 local skillAdapter = assert(loadfile(root .. '/skills_cn.lua'))(P, game)
@@ -476,6 +477,9 @@ local loadModule = LoadModule
 LoadModule = function(name, ...)
     local updateSnapshot = name == 'UpdateApply' and P.updates.capture()
     local results = pack(loadModule(name, ...))
+    if name == 'Modules/ModParser' and type(results[1]) == 'function' then
+        results[1] = P.importCompat.wrap(results[1])
+    end
     if name == 'UpdateApply' then P.updates.restore(updateSnapshot) end
     protectClasses()
     if name == 'Modules/Build' then

@@ -5,6 +5,18 @@ from build_game_assets import compile_game_data
 
 ROOT = Path(__file__).resolve().parent
 
+def common_han():
+    """GB2312's 6,763 Han characters cover common user-entered Chinese names."""
+    chars = set()
+    for lead in range(0xB0, 0xF8):
+        for trail in range(0xA1, 0xFF):
+            try:
+                chars.add(bytes((lead, trail)).decode('gb2312'))
+            except UnicodeDecodeError:
+                pass
+    assert len(chars) == 6763
+    return chars
+
 def compile_dictionary():
     mapping, folded = {}, {}
     for i, line in enumerate((ROOT / 'translations.tsv').read_text().splitlines(), 1):
@@ -28,7 +40,7 @@ def compile_dictionary():
         f'  [{quote(k)}] = {quote(v)},\n' for k, v in sorted(mapping.items())
     ) + '}\n')
     game_chars = compile_game_data()
-    chars = sorted(set(''.join(mapping.values()) + '简体中文汉化已启用按切换界面语言：，。…？（）【】；“”') | game_chars)
+    chars = sorted(set(''.join(mapping.values()) + '简体中文汉化已启用按切换界面语言：，。…？（）【】；“”') | game_chars | common_han())
     (ROOT / 'charset.txt').write_text(''.join(c for c in chars if ord(c) > 127))
     print(f'Compiled {len(mapping)} translations')
 

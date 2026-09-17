@@ -1,4 +1,4 @@
-"""Install a display-only hook in the Mac port's writable Lua entry.
+"""Install the Chinese UI and import-compatibility hook in the Mac port's writable Lua entry.
 
 The signed .app, build XML, settings, and calculation modules are never changed.
 --status inspects files only; it cannot establish what a running PoB has loaded.
@@ -117,6 +117,8 @@ def validate_payload(payload, names=None):
         required.add('equipment_cn.lua')
     if 'init.lua' in files and 'update_guard.lua' in read_text(files['init.lua']):
         required.add('update_guard.lua')
+    if 'init.lua' in files and 'import_compat.lua' in read_text(files['init.lua']):
+        required.add('import_compat.lua')
     if 'init.lua' in files and 'mac_input.lua' in read_text(files['init.lua']):
         required.add('mac_input.lua')
     if 'init.lua' in files and 'stat_compare_cn.lua' in read_text(files['init.lua']):

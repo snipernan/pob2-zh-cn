@@ -17,6 +17,7 @@ python3 test_install.py
 python3 test_update_guard.py
 python3 run_lua.py tests.lua
 python3 run_lua.py tests_game_text.lua
+python3 run_lua.py tests_import_compat.lua
 ```
 
 `build_assets.py` 从 `translations.tsv` 和 `data/` 中的审核映射编译，完全离线。`data/tree-combined-cn.json` 为生成的合并结果，由 Git 忽略规则管理。`payload/` 中的生成词典和字库进入 Git，供用户直接安装。修改源译文后同时提交生成词典；CI 会检查是否一致。
@@ -25,7 +26,7 @@ python3 run_lua.py tests_game_text.lua
 
 ## 字库
 
-本项目使用仓库内带 OFL 许可的 Noto 生成可分发字库。只在字符集改变或字库代码修改时重建：
+本项目使用仓库内带 OFL 许可的 Noto 生成可分发字库。`build_assets.py` 将译文用字与 GB2312 的 6763 个常用汉字合并到 `charset.txt`，覆盖用户输入的常见中文名称。只在字符集改变或字库代码修改时重建：
 
 ```sh
 swift -sdk "$(xcrun --show-sdk-path)" build_font.swift "$PWD" "$PWD/fonts/NotoSansCJKsc-Regular.otf"
@@ -70,3 +71,9 @@ python3 test_update_guard.py --core "$POB2_CORE_SRC"
 ```
 
 CI 使用最小更新契约模拟文件替换；实际核心更新脚本在本地原生库环境另行验证。`update_guard.lua` 每次更新前只采集当前已安装的独立入口，更新成功后校验新文件并原子补回入口。整包启动入口采用原有独立加载方式。
+
+## 转换配装兼容
+
+`payload/import_compat.lua` 对完整匹配的带显式加号整数抗性提供回退解析。它先调用上游解析器，在上游未完整识别时，将已核验格式转换为 `+22% to Fire Resistance` 这类标准词缀交给上游处理。支持的词缀保留原文、缓存接口与序列化，语言开关只控制显示。扩展兼容格式时，应核对词缀含义并增加真实核心的数值回归。
+
+赌神芬多的抗性语义参考：[编年史装备资料](https://poe2db.tw/Ventors_Gamble)。测试使用最小合成装备，覆盖正值、零值、原生固定抗性机制、固有／外延词缀、原文导出、中文提示、计算对照及中文文件名保存重载。

@@ -77,6 +77,9 @@ end
 local function equipmentText(text)
     if not P.enabled or type(text) ~= 'string' then return text end
     local body, suffix = splitWarning(text)
+    local prefix = body:match('^(%^x%x%x%x%x%x%x)') or body:match('^(%^%d)') or ''
+    local canonical = P.importCompat and P.importCompat.canonical(body:sub(#prefix + 1))
+    if canonical then body = prefix .. canonical end
     local translated = game.translateEquipmentText and game.translateEquipmentText(body)
     if translated and translated ~= body then return translated .. suffix end
     translated = P.translate(text)
